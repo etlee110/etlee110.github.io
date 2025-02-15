@@ -13,6 +13,6 @@ title: "Contact"
   <i class="fab fa-github"></i> GitHub
 </a>
 
-<a href="https://www.linkedin.com/in/etlee110" target="_blank">
+<a href="https://www.linkedin.com/in/ethanlee2024/" target="_blank">
   <i class="fab fa-linkedin"></i> LinkedIn
 </a>
