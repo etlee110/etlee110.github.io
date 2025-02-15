@@ -1,5 +1,6 @@
 menu:
 - {name: 'BST236', url: '/courses/BST236ComputingI'}
+- {name: 'Contact', url: '/contact'}
 
 
 people:
@@ -10,11 +11,6 @@ people:
 courses:
 - {name: 'BST 236 Computing I', url: 'BST236ComputingI'}
 
-social:
-- {icon: 'github', link: 'https://github.com/etlee110'}
-- {icon: 'twitter', link: 'https://twitter.com/paululele'}
-- {icon: 'instagram', link: 'https://instagram.com/paululele'}
-- {icon: 'linkedin', link: 'https://linkedin.com/in/lenpaul'}
 
 contacts:
 - {name: 'Dr. Academia', title: 'Professor', department: 'Physics & Astronomy', institution: 'Some University', institution_address: '1 Main Street, Canada', phone: '(000) 000-0000', email: 'hello@university.edu', office: 'Science Building 505', image: 'assets/img/contact.jpg'}
