@@ -2,7 +2,5 @@
 layout: home
 title: "Home"
 ---
+I am a first-year Phd Student at the Harvard T.H. Chan School of Public Health. This page, for now, serves as a repository that stores my recent activities, as well as the assignments for a class I am taking, BST 236 Computing I
 
-This theme allows an academic person to showcase their research interests, publications, research group, curriculum vitae, any courses that they may be teaching, or anything else they may want to put out into the world.
-
-Academics can use this home page to describe their research interests, display their latest publications, or provide an introduction to their research group.
