@@ -2,33 +2,6 @@
 layout: page
 title: "BST236 Computing I"
 ---
-
-#### Course Information
-
-[Course Outline](/courses/BST236ComputingI/Sample_Course_Outline.pdf)
-
-#### Lecture Notes
-
-[Lecture 1](/courses/quantum-mechanics/Sample_Lecture_Notes.pdf)
-
-[Lecture 2](/courses/quantum-mechanics/Sample_Lecture_Notes.pdf)
-
-[Lecture 3](/courses/quantum-mechanics/Sample_Lecture_Notes.pdf)
-
 #### Homework
 
-[Homework 1](/courses/quantum-mechanics/Sample_Lecture_Notes.pdf)
-
-[Homework 2](/courses/quantum-mechanics/Sample_Lecture_Notes.pdf)
-
-[Homework 3](/courses/quantum-mechanics/Sample_Lecture_Notes.pdf)
-
-#### Midterms
-
-[Midterm 1](/courses/quantum-mechanics/Sample_Midterm.pdf)
-
-[Midterm 2](/courses/quantum-mechanics/Sample_Midterm.pdf)
-
-#### Exams
-
-[Exam 1](/courses/quantum-mechanics/Sample_Exam.pdf)
+[Homework 1](https://etlee110.github.io/BST236_HW1/)

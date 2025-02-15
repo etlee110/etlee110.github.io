@@ -11,9 +11,7 @@ people:
 - {name: 'Graduate Student', title: 'Researcher', department: 'Physics & Astronomy', institution: 'Some University', institution_address: '1 Main Street, Canada', phone: '(000) 000-0000', email: 'hello@university.edu', office: 'Science Building 505', image: 'assets/img/graduate-student.jpg', url: 'graduate-student'}
 
 courses:
-- {name: 'Vector Calculus', url: 'vector-calculus'}
-- {name: 'BSt 236 Computing I', url: 'BST236ComputingI'}
-- {name: 'Stellar Structures', url: 'stellar-structures'}
+- {name: 'BST 236 Computing I', url: 'BST236ComputingI'}
 
 social:
 - {icon: 'github', link: 'https://github.com/LeNPaul'}
