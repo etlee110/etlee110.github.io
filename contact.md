@@ -5,7 +5,7 @@ title: "Contact"
 
 **Ethan Lee**
 
-<a href="mailto:etlee110@gmail.com">
+<a href="mailto:ethanlee@g.harvard.edu">
   <i class="fas fa-envelope"></i> ethanlee@g.harvard.edu
 </a>
 
