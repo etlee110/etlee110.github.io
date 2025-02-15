@@ -1,11 +1,11 @@
 ---
 layout: page
-title: "Quantum Mechanics"
+title: "BST236 Computing I"
 ---
 
 #### Course Information
 
-[Course Outline](/courses/quantum-mechanics/Sample_Course_Outline.pdf)
+[Course Outline](/courses/BST236ComputingI/Sample_Course_Outline.pdf)
 
 #### Lecture Notes
 
