@@ -12,7 +12,7 @@ people:
 
 courses:
 - {name: 'Vector Calculus', url: 'vector-calculus'}
-- {name: 'Quantum Mechanics', url: 'quantum-mechanics'}
+- {name: 'BSt 236 Computing I', url: 'BST236ComputingI'}
 - {name: 'Stellar Structures', url: 'stellar-structures'}
 
 social:
