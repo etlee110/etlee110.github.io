@@ -1,44 +1,15 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BST236 Homework 1</title>
-    <link rel="stylesheet" href="../styles.css"> <!-- Assuming you have a styles.css file for styling -->
-</head>
-<body>
-    <header>
-        <h1>BST236 Homework 1</h1>
-    </header>
-    <main>
-        <section id="papers">
-            <h2>Latest Papers on Physics</h2>
-            <ul id="papers-list"></ul>
-        </section>
-    </main>
-    <script>
-        async function fetchPapers() {
-            const response = await fetch('http://export.arxiv.org/api/query?search_query=all:physics&start=0&max_results=10');
-            const data = await response.text();
-            const parser = new DOMParser();
-            const xml = parser.parseFromString(data, 'application/xml');
-            const entries = xml.getElementsByTagName('entry');
-            const papersList = document.getElementById('papers-list');
-
-            for (let i = 0; i < entries.length; i++) {
-                const entry = entries[i];
-                const title = entry.getElementsByTagName('title')[0].textContent;
-                const link = entry.getElementsByTagName('link')[0].getAttribute('href');
-                const listItem = document.createElement('li');
-                const anchor = document.createElement('a');
-                anchor.href = link;
-                anchor.textContent = title;
-                listItem.appendChild(anchor);
-                papersList.appendChild(listItem);
-            }
-        }
-
-        fetchPapers();
-    </script>
-</body>
-</html>
+<div class="row g-5 mb-5">
+    <div>
+      <h3 class="fw-bold border-bottom pb-3 mb-5">Homework 1</h3>
+      {% if page.title == "Home" %}
+        {% for item in site.data.publications.featured %}
+          <p><a href="{{ item.url }}">{{ item.name }}</a></p>
+        {% endfor %}
+      {% else %}
+        {% for item in site.data.publications.index %}
+          <p><a href="{{ item.url }}">{{ item.name }}</a></p>
+        {% endfor %}
+      {% endif %}
+    </div>
+  </div>
+  
