@@ -1,6 +1,4 @@
 menu:
-- {name: 'people', url: '/people'}
-- {name: 'publications', url: '/publications'}
 - {name: 'BST236', url: '/courses/BST236ComputingI'}
 
 
@@ -13,7 +11,7 @@ courses:
 - {name: 'BST 236 Computing I', url: 'BST236ComputingI'}
 
 social:
-- {icon: 'github', link: 'https://github.com/LeNPaul'}
+- {icon: 'github', link: 'https://github.com/etlee110'}
 - {icon: 'twitter', link: 'https://twitter.com/paululele'}
 - {icon: 'instagram', link: 'https://instagram.com/paululele'}
 - {icon: 'linkedin', link: 'https://linkedin.com/in/lenpaul'}
