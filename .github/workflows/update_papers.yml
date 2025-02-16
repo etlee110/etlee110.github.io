@@ -41,12 +41,15 @@ jobs:
       - name: Commit changes
         run: |
           git add _includes/homework_papers.html
-          # Check if there are changes. If so, commit them.
           if ! git diff-index --quiet HEAD; then
             git commit -m "Update papers $(date -u +"%Y-%m-%d %H:%M:%S") UTC"
           else
             echo "No changes to commit."
           fi
+
+      # Pull remote changes before pushing to avoid conflicts
+      - name: Pull remote changes
+        run: git pull --rebase origin master
 
       # Push the changes back to the repository
       - name: Push changes
