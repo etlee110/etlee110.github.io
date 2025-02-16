@@ -49,7 +49,7 @@ jobs:
 
       # Pull remote changes before pushing to avoid conflicts
       - name: Pull remote changes
-        run: git pull --rebase origin master
+        run: git pull --rebase origin gh-pages
 
       # Push the changes back to the repository
       - name: Push changes
