@@ -26,13 +26,13 @@ jobs:
     - name: Run script to update papers
       run: python update_papers.py
 
-    - name: Update timestamp in bst236_hw1.html
+    - name: Update timestamp in BST236_HW1.html
       run: |
         timestamp=$(date '+%Y-%m-%d %H:%M:%S')
-        echo "Updating bst236_hw1.html with timestamp: $timestamp"
+        echo "Updating BST236_HW1.html with timestamp: $timestamp"
         # Replace the Liquid timestamp line with the updated timestamp.
         # This sed command will match any line starting with "Last updated:" and replace it.
-        sed -i "s|Last updated:.*|Last updated: $timestamp|g" bst236_hw1.html
+        sed -i "s|Last updated:.*|Last updated: $timestamp|g" BST236_HW1.html
 
     - name: Commit and push changes
       run: |
