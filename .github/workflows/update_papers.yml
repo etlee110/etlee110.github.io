@@ -29,14 +29,14 @@ jobs:
     - name: Update timestamp in BST236_HW1.html
       run: |
         timestamp=$(date '+%Y-%m-%d %H:%M:%S')
-        echo "Updating BST236_HW1.html with timestamp: $timestamp"
+        echo "Updating courses/BST236ComputingI,BST236_HW1.html with timestamp: $timestamp"
         # Replace the line starting with "Last updated:" with the new timestamp.
-        sed -i "s|Last updated:.*|Last updated: $timestamp|g" BST236_HW1.html
+        sed -i "s|Last updated:.*|Last updated: $timestamp|g" courses/BST236ComputingI,BST236_HW1.html
 
     - name: Commit and push changes
       run: |
         git config --global user.name "github-actions[bot]"
         git config --global user.email "github-actions[bot]@users.noreply.github.com"
-        git add _includes/homework_papers.html BST236_HW1.html
+        git add _includes/homework_papers.html courses/BST236ComputingI,BST236_HW1.html
         git commit -m "Auto-update arXiv papers" || echo "No changes to commit"
         git push origin gh-pages
