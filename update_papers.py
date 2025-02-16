@@ -7,8 +7,7 @@ import re
 # Configuration
 SEARCH_QUERY = "physics"
 MAX_RESULTS = 10  # Number of papers to fetch
-OUTPUT_FILE = "papers.html"
-
+OUTPUT_FILE = "_includes/homework_papers.html"
 def fetch_arxiv_papers(query, max_results=10):
     url = (
         f"http://export.arxiv.org/api/query?"
@@ -60,18 +59,7 @@ def parse_arxiv_response(xml_data):
     
     print(f"Parsed {len(papers)} papers from the arXiv response.")
     return papers
-def save_as_markdown(papers, output_file):
-    """ Saves the fetched arXiv papers in Markdown format. """
-    md_content = "# Related arXiv Papers\n\n"
-    for paper in papers:
-        md_content += f"## [{paper['title']}]({paper['pdf_url']})\n"
-        md_content += f"**Authors:** {paper['authors']}\n\n"
-        md_content += f"{paper['abstract']}\n\n---\n"
-
-    with open(output_file, 'w', encoding='utf-8') as f:
-        f.write(md_content)
-
-    print(f"Markdown content saved to {output_file}")
+    
 
 def generate_html(papers):
     paper_items = ""
@@ -140,15 +128,22 @@ def restore_placeholders(content):
         )
 
     return content
+
 def main():
     print("Starting arXiv papers update process...")
     xml_data = fetch_arxiv_papers(SEARCH_QUERY, MAX_RESULTS)
+    
+    print("Raw XML Response (first 1000 characters):\n", xml_data[:1000], "\n")
+    
     papers = parse_arxiv_response(xml_data)
-
     if not papers:
-        print("No papers found for this keyword.")
-
-    save_as_markdown(papers, "_includes/arxiv_papers.md")  # Save output as Markdown
+        print("No papers found for this keyword. Updating timestamp anyway...")
+    
+    paper_html, timestamp = generate_html(papers)
+    
+    # Always call update_html_file() so timestamp is updated every time
+    # even if no new papers are found.
+    update_html_file(paper_html, timestamp, OUTPUT_FILE)
 
 if __name__ == "__main__":
     main()
