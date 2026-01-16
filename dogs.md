@@ -4,6 +4,24 @@ title: Pictures of My Dogs
 permalink: /dogs/
 ---
 
+# Pictures of Ben
+
+<table style="width: 100%; text-align: center;">
+  <tr>
+    <td>
+      <img src="/assets/img/Ben1.jpg" alt="Ben 1" style="width: 200px;"/>
+    </td>
+    <td>
+      <img src="/assets/img/Ben2.PNG" alt="Ben 2" style="width: 200px;"/>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src="/assets/img/Ben3.jpg" alt="Ben 3" style="width: 200px;"/>
+    </td>
+  </tr>
+</table>
+
 # Pictures of Mango
 
 <table style="width: 100%; text-align: center;">
