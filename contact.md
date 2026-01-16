@@ -9,6 +9,10 @@ title: "Contact"
   <i class="fas fa-envelope"></i> ethanlee@g.harvard.edu
 </a>
 
+<a href="mailto:etlee110@gmail.com">
+  <i class="fas fa-envelope"></i> etlee110@gmail.com
+</a>
+
 <a href="https://github.com/etlee110" target="_blank">
   <i class="fab fa-github"></i> GitHub
 </a>
