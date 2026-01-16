@@ -9,7 +9,7 @@ permalink: /dogs/
 <table style="width: 100%; text-align: center;">
   <tr>
     <td>
-      <img src="/assets/img/Ben1.jpg" alt="Ben 1" style="width: 300px;"/>
+      <img src="/assets/img/Ben1.jpg" alt="Ben 1" style="width: 1000;"/>
     </td>
     <td>
       <img src="/assets/img/Ben2.PNG" alt="Ben 2" style="width: 300px;"/>
