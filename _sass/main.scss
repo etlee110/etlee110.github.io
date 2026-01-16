@@ -1,14 +1,14 @@
-$backgroundColor: #ADD8E6; // Light blue background color
-$bodyColor: #0a0106;
-$bodyFont: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
-$linkColor: #212529 !important;
-
-body {
-  background: $backgroundColor;
-  color: $bodyColor;
-  font-family: $bodyFont;
+nav ul.nav {
+  list-style: none;
+  padding: 0;
 }
 
-body a {
-  color: $linkColor;
+nav ul.nav li.nav-item {
+  display: inline-block;
+  margin: 0 15px; /* Space between menu items */
+}
+
+nav ul.nav a.nav-link {
+  color: inherit;
+  text-decoration: none;
 }
