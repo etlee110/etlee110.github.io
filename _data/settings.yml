@@ -1,4 +1,4 @@
 menu:
 - {name: 'Furry Friends', url: '/dogs'}
-- {name: 'Contact', url: '/contact'}
 - {name: 'Official Stuff', url: '/courses/BST236ComputingI'}
+- {name: 'Contact', url: '/contact'}
