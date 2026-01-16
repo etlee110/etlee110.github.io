@@ -20,3 +20,10 @@ nav ul.nav a.nav-link {
   color: inherit;
   text-decoration: none;
 }
+/* Global styling for dog images */
+table img {
+  max-width: 150px; /* Set the max width of each image */
+  height: auto; /* Maintain aspect ratio */
+  display: block; /* Optional: prevent inline alignment issues */
+  margin: 0 auto; /* Centers the images */
+}
