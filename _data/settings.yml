@@ -1,6 +1,7 @@
 menu:
 - {name: 'BST236', url: '/courses/BST236ComputingI'}
 - {name: 'Contact', url: '/contact'}
+- {name: 'Furry Friends', url: '/furryfriends'}
 
 courses:
 - {name: 'BST 236 Computing I', url: 'BST236ComputingI'}
