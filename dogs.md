@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Pictures of My Dog
+title: Pictures of My Dogs
 permalink: /dogs/
 ---
 
