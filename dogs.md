@@ -42,3 +42,16 @@ permalink: /dogs/
     </td>
   </tr>
 </table>
+
+# Totally real pictures 
+
+<table style="width: 100%; text-align: center;">
+  <tr>
+    <td>
+      <img src="/assets/img/mango-ben.jpg" alt="Mango ben 1" style="width: 200px;"/>
+    </td>
+    <td>
+      <img src="/assets/img/mango_ben.jpg" alt="Mango ben 2" style="width: 200px;"/>
+    </td>
+  </tr>
+</table>
