@@ -1,5 +1,6 @@
 import os
 import json
+from datetime import datetime, timezone
 import yfinance as yf
 
 # List of stock tickers
@@ -21,16 +22,23 @@ def fetch_stock_prices(ticker_list):
 
 if __name__ == "__main__":
     stock_prices = fetch_stock_prices(stocks)
-    
+
     # Print the stock prices for debugging
     print("Current Stock Prices:")
     for ticker, data in stock_prices.items():
         print(f"{ticker}: ${data['price']}")
-    
+
     # Ensure the `_data` directory exists
     os.makedirs("_data", exist_ok=True)
-    
-    # Save stock prices to `_data/stock_prices.json`
+
+    # Wrap with fetched_at + stocks
+    payload = {
+        "fetched_at": datetime.now(timezone.utc).isoformat(),
+        "stocks": stock_prices
+    }
+
+    # Save to `_data/stock_prices.json`
     with open("_data/stock_prices.json", "w") as json_file:
-        json.dump(stock_prices, json_file, indent=4)
+        json.dump(payload, json_file, indent=4)
+
     print("Stock prices saved to _data/stock_prices.json")
