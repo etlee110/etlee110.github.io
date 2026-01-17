@@ -30,6 +30,9 @@ The table below is automatically updated with the latest stock prices.
 
 ## Current Stock Prices
 
+{% assign sp = site.data.stock_prices %}
+<p><em>Last fetched {{ sp.fetched_at | date: "%B %-d, %Y at %-I:%M %p %Z" }}</em></p>
+
 <table class="stock-table">
   <thead>
     <tr>
@@ -38,8 +41,7 @@ The table below is automatically updated with the latest stock prices.
     </tr>
   </thead>
   <tbody>
-    {% assign stock_prices = site.data.stock_prices %}
-    {% for item in stock_prices %}
+    {% for item in sp.stocks %}
       {% assign ticker = item[0] %}
       {% assign data = item[1] %}
       <tr>
