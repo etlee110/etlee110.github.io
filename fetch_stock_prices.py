@@ -1,6 +1,7 @@
 import os
 import json
 from datetime import datetime, timezone
+from zoneinfo import ZoneInfo
 import yfinance as yf
 
 # List of stock tickers
@@ -31,9 +32,13 @@ if __name__ == "__main__":
     # Ensure the `_data` directory exists
     os.makedirs("_data", exist_ok=True)
 
+    now_utc = datetime.now(timezone.utc)
+    now_et = now_utc.astimezone(ZoneInfo("America/New_York"))
+
     # Wrap with fetched_at + stocks
     payload = {
-        "fetched_at": datetime.now(timezone.utc).isoformat(),
+        "fetched_at_utc": now_utc.isoformat(),
+        "fetched_at_et": now_et.strftime("%B %-d, %Y at %-I:%M %p %Z"),
         "stocks": stock_prices
     }
 
