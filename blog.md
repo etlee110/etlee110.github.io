@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Blog
+title: Diary
 permalink: /blog/
 ---
 
-# Blog
+# Diary
 
 <ul>
   {% for post in site.posts %}
