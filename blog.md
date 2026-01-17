@@ -6,6 +6,7 @@ permalink: /blog/
 
 # Diary
 
+<!--
 <ul>
   {% for post in site.posts %}
     <li>
@@ -13,3 +14,6 @@ permalink: /blog/
     </li>
   {% endfor %}
 </ul>
+
+-->
+
