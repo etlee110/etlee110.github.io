@@ -1,31 +1,35 @@
 import requests
-import datetime
 import json
+import os
+from datetime import datetime
 
-DEST_FILE = "mlb_standings.json"
+API_KEY = "your_api_key_here"
+BASEBALL_URL = "https://api.api-baseball.io/v3/standings"
+CACHE_FILE = "mlb_standings.json"
 
-def fetch_mlb_standings():
-    # Example: Using the MLB Stats API for divisions standings
-    url = "http://statsapi.mlb.com/api/v1/standings"
-    params = {
-        "leagueId": "103,104",  # AL (103), NL (104)
-        "season": datetime.datetime.now().year,  # Current year
-        "standingsTypes": "regularSeason"
-    }
+def fetch_and_cache_standings():
+    if os.path.exists(CACHE_FILE):
+        cache_time = datetime.fromtimestamp(os.path.getmtime(CACHE_FILE))
+        time_diff = datetime.now() - cache_time
+        # Only fetch data if it's older than 24 hours
+        if time_diff.total_seconds() < 24 * 60 * 60:
+            print("Using cached standings data.")
+            with open(CACHE_FILE, "r") as file:
+                return json.load(file)
 
-    response = requests.get(url, params=params)
+    # Fetch new standings from API
+    headers = {"x-rapidapi-key": API_KEY}
+    response = requests.get(BASEBALL_URL, headers=headers)
     if response.status_code == 200:
         standings = response.json()
-        # Save to a local file
-        save_standings_to_file(standings)
-        print("Standings fetched successfully.")
+        print("Fetched new standings data.")
+        # Save data to cache file
+        with open(CACHE_FILE, "w") as file:
+            json.dump(standings, file, indent=4)
+        return standings
     else:
-        print(f"Failed to fetch standings. HTTP {response.status_code}")
+        print(f"Error: {response.status_code}, {response.text}")
+        return None
 
-def save_standings_to_file(standings):
-    with open(DEST_FILE, "w") as json_file:
-        json.dump(standings, json_file, indent=4)
-    print(f"Standings saved to {DEST_FILE}")
-
-if __name__ == "__main__":
-    fetch_mlb_standings()
+standings = fetch_and_cache_standings()
+print(standings)
