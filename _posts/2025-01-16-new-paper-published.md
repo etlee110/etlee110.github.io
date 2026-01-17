@@ -10,4 +10,4 @@ $$
 
 have gradients $2X^\top$. But transpose?
 
-Now I actually gotta read it. Like my dad told me, stop your stupid sports watching, focus on things that **MATTER**. Totally agree, dad totally agree. 
+Now I actually gotta read it. Like my dad told me, stop your stupid sports watching, focus on things that **MATTER**. Totally agree.
