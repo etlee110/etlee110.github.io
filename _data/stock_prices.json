@@ -1,0 +1,22 @@
+{
+    "AAPL": {
+        "name": "AAPL",
+        "price": 255.53
+    },
+    "GOOGL": {
+        "name": "GOOGL",
+        "price": 330.0
+    },
+    "MSFT": {
+        "name": "MSFT",
+        "price": 459.86
+    },
+    "AMZN": {
+        "name": "AMZN",
+        "price": 239.12
+    },
+    "TSLA": {
+        "name": "TSLA",
+        "price": 437.5
+    }
+}
