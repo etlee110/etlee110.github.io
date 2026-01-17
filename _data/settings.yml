@@ -2,6 +2,6 @@ menu:
 - {name: 'Furry Friends', url: '/dogs'}
 - {name: 'Official Stuff', url: '/courses/BST236ComputingI'}
 - {name: 'Blog', url: '/blog'}
-- {name: 'MLB Standings', url: '/mlb'}
+- {name: 'Stonks', url: '/stocks'}
 - {name: 'Contact', url: '/contact'}
 
