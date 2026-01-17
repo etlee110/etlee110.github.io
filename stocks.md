@@ -6,7 +6,7 @@ permalink: /stocks/
 
 # Stock Prices
 
-The table below is automatically updated with the latest stock prices for some.
+The table below is automatically updated with the latest stock prices for some oniasdf
 
 <style>
   table.stock-table {
