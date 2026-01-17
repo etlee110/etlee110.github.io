@@ -24,7 +24,7 @@ jobs:
       run: pip install requests
 
     - name: Fetch MLB standings
-      run: python scripts/fetch_mlb_standings.py
+      run: python fetch_mlb_standings.py
 
     - name: List directory for debugging
       run: ls -la _data
