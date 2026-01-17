@@ -3,7 +3,7 @@ import json
 import os
 from datetime import datetime
 
-API_KEY = "your_api_key_here"
+API_KEY = "e30ced038634957b94c47f2eb92faa70"
 BASEBALL_URL = "https://api.api-baseball.io/v3/standings"
 CACHE_FILE = "mlb_standings.json"
 
