@@ -1,28 +1,38 @@
 name: Fetch MLB Standings
 
-# Run at 9:00 UTC daily
 on:
   schedule:
-    - cron: "0 9 * * *"
-  workflow_dispatch:  # Allows manual triggering of this workflow
+    - cron: '0 0 * * *'  # Fetches standings daily at midnight UTC
+  workflow_dispatch:  # Allows manual trigger
 
 jobs:
-  fetch-standings:
+  fetch-mlb-standings:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout the repository
-        uses: actions/checkout@v3
+    - name: Checkout gh-pages branch
+      uses: actions/checkout@v3
+      with:
+        ref: gh-pages  # Ensures we're working on the gh-pages branch
 
-      - name: Set up Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: 3.9
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.9'  # You can adjust this version if needed
 
-      - name: Install dependencies
-        run: |
-          pip install requests
+    - name: Install dependencies
+      run: pip install requests
 
-      - name: Fetch MLB standings
-        run: |
-          python fetch_mlb_standings.py
+    - name: Fetch MLB standings
+      run: python scripts/fetch_mlb_standings.py
+
+    - name: List directory for debugging
+      run: ls -la _data
+
+    - name: Commit and push changes
+      run: |
+        git config --global user.name "github-actions[bot]"
+        git config --global user.email "github-actions[bot]@users.noreply.github.com"
+        git add _data/mlb_standings.json
+        git commit -m "Auto-update MLB standings" || echo "No changes to commit"
+        git push origin gh-pages
