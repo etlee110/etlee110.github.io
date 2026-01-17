@@ -6,7 +6,7 @@ permalink: /stocks/
 
 # Stock Prices
 
-The table below is automatically updated with the latest stock prices.
+The table below is automatically updated with the latest stock prices for some.
 
 <style>
   table.stock-table {
