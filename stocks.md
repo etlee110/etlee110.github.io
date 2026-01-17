@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Stock Prices
-permalink: /stock-prices/
+permalink: /stocks
 ---
 
 # Stock Prices
