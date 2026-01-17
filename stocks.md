@@ -41,7 +41,7 @@ The table below is automatically updated with the latest stock prices.
     {% assign stock_prices = site.data.stock_prices %}
     {% for ticker in stock_prices %}
     <tr>
-      <td>{{ ticker }}</td>
+      <td>{{ stock_prices[ticker].name }}</td>
       <td>${{ stock_prices[ticker].price }}</td>
     </tr>
     {% endfor %}
