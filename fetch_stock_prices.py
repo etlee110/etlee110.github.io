@@ -5,7 +5,7 @@ from zoneinfo import ZoneInfo
 import yfinance as yf
 
 # List of stock tickers
-stocks = ["AAPL", "GOOGL", "MSFT", "AMZN", "TSLA"]
+stocks = ["AAPL", "GOOGL", "MSFT", "AMZN", "TSLA", "COF", "CRSP", "DAL", "SE", "UBER", "DIDIY", "EDIT", "JPM", "QXO"]
 
 def fetch_stock_prices(ticker_list):
     """
