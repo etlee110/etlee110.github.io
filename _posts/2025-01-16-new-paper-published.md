@@ -7,6 +7,7 @@ I took STAT 211 a term ago. I never met this guy formally, but he put up a nice 
 $$
 X^\top X
 $$
+
 have gradients $2X^\top$. But transpose?
 
 Now I actually gotta read it. Like my dad told me, stop your stupid sports watching, focus on things that **MATTER**. Totally agree, dad totally agree. 
