@@ -1,22 +1,25 @@
 {
-    "AAPL": {
-        "name": "AAPL",
-        "price": 255.53
-    },
-    "GOOGL": {
-        "name": "GOOGL",
-        "price": 330.0
-    },
-    "MSFT": {
-        "name": "MSFT",
-        "price": 459.86
-    },
-    "AMZN": {
-        "name": "AMZN",
-        "price": 239.12
-    },
-    "TSLA": {
-        "name": "TSLA",
-        "price": 437.5
+    "fetched_at": "2026-01-17T03:19:14.756085+00:00",
+    "stocks": {
+        "AAPL": {
+            "name": "AAPL",
+            "price": 255.53
+        },
+        "GOOGL": {
+            "name": "GOOGL",
+            "price": 330.0
+        },
+        "MSFT": {
+            "name": "MSFT",
+            "price": 459.86
+        },
+        "AMZN": {
+            "name": "AMZN",
+            "price": 239.12
+        },
+        "TSLA": {
+            "name": "TSLA",
+            "price": 437.5
+        }
     }
 }
