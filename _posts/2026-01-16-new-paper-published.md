@@ -11,3 +11,5 @@ $$
 have gradients $2X^\top$. But transpose?
 
 Now I actually gotta read it. Like my dad told me, stop your stupid sports watching, focus on things that **MATTER**. Totally agree. Gotta recognize I ain't great but I can be better if I actually tried. 
+
+Now, if you excuse me, I'm going to sleep now. Bye!. 1/16/2026
