@@ -1,62 +1,62 @@
 {
-    "fetched_at_utc": "2026-01-30T18:02:51.835456+00:00",
-    "fetched_at_et": "January 30, 2026 at 1:02 PM EST",
+    "fetched_at_utc": "2026-01-30T19:18:53.108833+00:00",
+    "fetched_at_et": "January 30, 2026 at 2:18 PM EST",
     "stocks": {
         "AAPL": {
             "name": "AAPL",
-            "price": 254.915
+            "price": 257.43
         },
         "GOOGL": {
             "name": "GOOGL",
-            "price": 337.66
+            "price": 337.87
         },
         "MSFT": {
             "name": "MSFT",
-            "price": 432.19
+            "price": 430.99
         },
         "AMZN": {
             "name": "AMZN",
-            "price": 239.405
+            "price": 240.44
         },
         "TSLA": {
             "name": "TSLA",
-            "price": 434.92
+            "price": 434.77
         },
         "COF": {
             "name": "COF",
-            "price": 217.58
+            "price": 217.97
         },
         "CRSP": {
             "name": "CRSP",
-            "price": 51.32
+            "price": 51.18
         },
         "DAL": {
             "name": "DAL",
-            "price": 65.5
+            "price": 65.76
         },
         "SE": {
             "name": "SE",
-            "price": 116.315
+            "price": 117.03
         },
         "UBER": {
             "name": "UBER",
-            "price": 79.92
+            "price": 80.215
         },
         "DIDIY": {
             "name": "DIDIY",
-            "price": 4.67
+            "price": 4.68
         },
         "EDIT": {
             "name": "EDIT",
-            "price": 1.9886
+            "price": 1.995
         },
         "JPM": {
             "name": "JPM",
-            "price": 303.455
+            "price": 305.5525
         },
         "QXO": {
             "name": "QXO",
-            "price": 22.225
+            "price": 22.33
         }
     }
 }
