@@ -2,7 +2,7 @@ name: Fetch Stock Prices
 
 on:
   schedule:
-    - cron: "39 * * * *"  # Run daily at 12:00 UTC
+    - cron: "0 0 1 * *"  # Run daily at 12:00 UTC
   workflow_dispatch:  # Allows manual triggering
 
 jobs:
