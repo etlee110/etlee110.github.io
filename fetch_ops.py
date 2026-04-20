@@ -1,11 +1,20 @@
 #!/usr/bin/env python3
 import json
+import re
 import requests
 from datetime import date
 
 BASE_URL = "https://statsapi.mlb.com"
 MIN_PA = 50
 LIMIT = 60
+
+
+def bref_url(full_name):
+    parts = full_name.split()
+    first = re.sub(r"[^a-z]", "", parts[0].lower())
+    last = re.sub(r"[^a-z]", "", parts[-1].lower())
+    slug = last[:5] + first[:2] + "01"
+    return f"https://www.baseball-reference.com/players/{last[0]}/{slug}.shtml"
 
 
 def fetch_ops_leaders():
@@ -36,7 +45,7 @@ def fetch_ops_leaders():
             "obp": stat.get("obp"),
             "slg": stat.get("slg"),
             "hr": stat.get("homeRuns"),
-            "url": f"https://www.mlb.com/player/{player_id}" if player_id else None,
+            "url": bref_url(player.get("fullName", "")) if player.get("fullName") else None,
         })
 
     return leaders
