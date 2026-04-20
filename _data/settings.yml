@@ -1,5 +1,4 @@
 menu:
-- {name: 'Furry Friends', url: '/dogs'}
 - {name: 'Official Stuff', url: '/courses/BST236ComputingI'}
 - {name: 'Blog', url: '/blog'}
 - {name: 'Stonks', url: '/stocks'}
