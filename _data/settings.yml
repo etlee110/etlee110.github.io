@@ -3,4 +3,5 @@ menu:
 - {name: 'Blog', url: '/blog'}
 - {name: 'Stonks', url: '/stocks'}
 - {name: 'Contact', url: '/contact'}
+- {name: 'Homers', url: '/homers'}
 
