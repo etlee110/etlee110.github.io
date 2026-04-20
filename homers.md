@@ -26,6 +26,17 @@ Updated daily at 12 PM ET &nbsp;·&nbsp; **{{ data.date }}** &nbsp;·&nbsp; {{ d
   table.hr-table th, table.ops-table th {
     background-color: #f4f4f4;
     font-weight: 700;
+    cursor: pointer;
+    user-select: none;
+    white-space: nowrap;
+  }
+  table.hr-table th:hover, table.ops-table th:hover {
+    background-color: #e8e8e8;
+  }
+  table.hr-table th[data-sort]::after, table.ops-table th[data-sort]::after {
+    content: ' ' attr(data-sort);
+    font-size: 0.75em;
+    color: #666;
   }
   table.hr-table tr:nth-child(even),
   table.ops-table tr:nth-child(even) {
@@ -100,7 +111,7 @@ Updated daily at 12 PM ET &nbsp;·&nbsp; **{{ data.date }}** &nbsp;·&nbsp; {{ d
 
 {% assign ops = site.data.ops_leaders %}
 
-*{{ ops.fetched }} &nbsp;·&nbsp; Min. {{ ops.min_pa }} PA &nbsp;·&nbsp; Data via Baseball Reference*
+*{{ ops.fetched }} &nbsp;·&nbsp; Min. {{ ops.min_pa }} PA &nbsp;·&nbsp; Data via MLB Stats API*
 
 <table class="ops-table">
   <thead>
@@ -112,6 +123,7 @@ Updated daily at 12 PM ET &nbsp;·&nbsp; **{{ data.date }}** &nbsp;·&nbsp; {{ d
       <th>AVG</th>
       <th>OBP</th>
       <th>SLG</th>
+      <th>HR</th>
       <th>PA</th>
     </tr>
   </thead>
@@ -131,8 +143,43 @@ Updated daily at 12 PM ET &nbsp;·&nbsp; **{{ data.date }}** &nbsp;·&nbsp; {{ d
       <td>{{ p.avg }}</td>
       <td>{{ p.obp }}</td>
       <td>{{ p.slg }}</td>
+      <td>{{ p.hr }}</td>
       <td>{{ p.pa }}</td>
     </tr>
     {% endfor %}
   </tbody>
 </table>
+
+<script>
+document.querySelectorAll('table.hr-table, table.ops-table').forEach(function(table) {
+  var sortCol = -1, sortAsc = true;
+
+  table.querySelectorAll('thead th').forEach(function(th, col) {
+    th.addEventListener('click', function() {
+      if (sortCol === col) {
+        sortAsc = !sortAsc;
+      } else {
+        sortCol = col;
+        sortAsc = false;
+      }
+      table.querySelectorAll('thead th').forEach(function(h) { delete h.dataset.sort; });
+      th.dataset.sort = sortAsc ? '▲' : '▼';
+
+      var tbody = table.querySelector('tbody');
+      var rows = Array.from(tbody.querySelectorAll('tr'));
+      rows.sort(function(a, b) {
+        var aText = a.cells[col].textContent.trim();
+        var bText = b.cells[col].textContent.trim();
+        var aNum = parseFloat(aText);
+        var bNum = parseFloat(bText);
+        var numeric = !isNaN(aNum) && !isNaN(bNum);
+        if (aText === '—') return 1;
+        if (bText === '—') return -1;
+        if (numeric) return sortAsc ? aNum - bNum : bNum - aNum;
+        return sortAsc ? aText.localeCompare(bText) : bText.localeCompare(aText);
+      });
+      rows.forEach(function(row) { tbody.appendChild(row); });
+    });
+  });
+});
+</script>

@@ -35,6 +35,7 @@ def fetch_ops_leaders():
             "avg": stat.get("avg"),
             "obp": stat.get("obp"),
             "slg": stat.get("slg"),
+            "hr": stat.get("homeRuns"),
             "url": f"https://www.mlb.com/player/{player_id}" if player_id else None,
         })
 
