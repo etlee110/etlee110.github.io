@@ -1,5 +1,5 @@
 menu:
 - {name: 'BST 236', url: '/courses/BST236ComputingI'}
 - {name: 'Contact', url: '/contact'}
-- {name: 'Homers', url: '/homers'}
+- {name: 'Homers and OPS', url: '/homers'}
 
