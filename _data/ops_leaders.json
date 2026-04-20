@@ -1,0 +1,226 @@
+{
+  "fetched": "2026-04-20",
+  "min_pa": 50,
+  "leaders": [
+    {
+      "name": "Ben Rice",
+      "team": "NYY",
+      "pa": 84,
+      "ops": 1.276,
+      "avg": ".338",
+      "obp": ".476",
+      "slg": ".800",
+      "ops_plus": "259",
+      "url": "https://www.baseball-reference.com/players/r/ricebe01.shtml"
+    },
+    {
+      "name": "Yordan Alvarez",
+      "team": "HOU",
+      "pa": 104,
+      "ops": 1.261,
+      "avg": ".333",
+      "obp": ".471",
+      "slg": ".790",
+      "ops_plus": "255",
+      "url": "https://www.baseball-reference.com/players/a/alvaryo01.shtml"
+    },
+    {
+      "name": "Andy Pages",
+      "team": "LAD",
+      "pa": 84,
+      "ops": 1.06,
+      "avg": ".382",
+      "obp": ".429",
+      "slg": ".632",
+      "ops_plus": "198",
+      "url": "https://www.baseball-reference.com/players/p/pagesan01.shtml"
+    },
+    {
+      "name": "Gary S\u00e1nchez",
+      "team": "MIL",
+      "pa": 56,
+      "ops": 1.048,
+      "avg": ".238",
+      "obp": ".429",
+      "slg": ".619",
+      "ops_plus": "192",
+      "url": "https://www.baseball-reference.com/players/s/sanchga02.shtml"
+    },
+    {
+      "name": "CJ Abrams",
+      "team": "WSN",
+      "pa": 91,
+      "ops": 1.029,
+      "avg": ".320",
+      "obp": ".429",
+      "slg": ".600",
+      "ops_plus": "193",
+      "url": "https://www.baseball-reference.com/players/a/abramcj01.shtml"
+    },
+    {
+      "name": "Jordan Walker",
+      "team": "STL",
+      "pa": 90,
+      "ops": 1.013,
+      "avg": ".305",
+      "obp": ".367",
+      "slg": ".646",
+      "ops_plus": "188",
+      "url": "https://www.baseball-reference.com/players/w/walkejo02.shtml"
+    },
+    {
+      "name": "Brice Turang",
+      "team": "MIL",
+      "pa": 88,
+      "ops": 1.008,
+      "avg": ".300",
+      "obp": ".437",
+      "slg": ".571",
+      "ops_plus": "183",
+      "url": "https://www.baseball-reference.com/players/t/turanbr02.shtml"
+    },
+    {
+      "name": "Dominic Smith",
+      "team": "ATL",
+      "pa": 54,
+      "ops": 0.998,
+      "avg": ".353",
+      "obp": ".370",
+      "slg": ".627",
+      "ops_plus": "176",
+      "url": "https://www.baseball-reference.com/players/s/smithdo02.shtml"
+    },
+    {
+      "name": "Luke Raley",
+      "team": "SEA",
+      "pa": 73,
+      "ops": 0.997,
+      "avg": ".313",
+      "obp": ".370",
+      "slg": ".627",
+      "ops_plus": "188",
+      "url": "https://www.baseball-reference.com/players/r/raleylu01.shtml"
+    },
+    {
+      "name": "Corbin Carroll",
+      "team": "ARI",
+      "pa": 82,
+      "ops": 0.99,
+      "avg": ".300",
+      "obp": ".390",
+      "slg": ".600",
+      "ops_plus": "173",
+      "url": "https://www.baseball-reference.com/players/c/carroco02.shtml"
+    },
+    {
+      "name": "Joey Wiemer",
+      "team": "WSN",
+      "pa": 50,
+      "ops": 0.988,
+      "avg": ".341",
+      "obp": ".420",
+      "slg": ".568",
+      "ops_plus": "182",
+      "url": "https://www.baseball-reference.com/players/w/wiemejo01.shtml"
+    },
+    {
+      "name": "Ildemaro Vargas",
+      "team": "ARI",
+      "pa": 60,
+      "ops": 0.986,
+      "avg": ".368",
+      "obp": ".390",
+      "slg": ".596",
+      "ops_plus": "172",
+      "url": "https://www.baseball-reference.com/players/v/vargail01.shtml"
+    },
+    {
+      "name": "Dillon Dingler",
+      "team": "DET",
+      "pa": 73,
+      "ops": 0.983,
+      "avg": ".302",
+      "obp": ".380",
+      "slg": ".603",
+      "ops_plus": "175",
+      "url": "https://www.baseball-reference.com/players/d/dingldi01.shtml"
+    },
+    {
+      "name": "Mike Trout",
+      "team": "LAA",
+      "pa": 102,
+      "ops": 0.98,
+      "avg": ".234",
+      "obp": ".422",
+      "slg": ".558",
+      "ops_plus": "180",
+      "url": "https://www.baseball-reference.com/players/t/troutmi01.shtml"
+    },
+    {
+      "name": "Sal Stewart",
+      "team": "CIN",
+      "pa": 94,
+      "ops": 0.978,
+      "avg": ".278",
+      "obp": ".383",
+      "slg": ".595",
+      "ops_plus": "164",
+      "url": "https://www.baseball-reference.com/players/s/stewasa02.shtml"
+    },
+    {
+      "name": "Brandon Lowe",
+      "team": "PIT",
+      "pa": 88,
+      "ops": 0.975,
+      "avg": ".267",
+      "obp": ".375",
+      "slg": ".600",
+      "ops_plus": "170",
+      "url": "https://www.baseball-reference.com/players/l/lowebr01.shtml"
+    },
+    {
+      "name": "Ryan O'Hearn",
+      "team": "PIT",
+      "pa": 84,
+      "ops": 0.96,
+      "avg": ".329",
+      "obp": ".417",
+      "slg": ".543",
+      "ops_plus": "168",
+      "url": "https://www.baseball-reference.com/players/o/ohearry01.shtml"
+    },
+    {
+      "name": "Mickey Moniak",
+      "team": "COL",
+      "pa": 59,
+      "ops": 0.96,
+      "avg": ".273",
+      "obp": ".305",
+      "slg": ".655",
+      "ops_plus": "152",
+      "url": "https://www.baseball-reference.com/players/m/moniami01.shtml"
+    },
+    {
+      "name": "Brendan Donovan",
+      "team": "SEA",
+      "pa": 71,
+      "ops": 0.954,
+      "avg": ".304",
+      "obp": ".437",
+      "slg": ".518",
+      "ops_plus": "180",
+      "url": "https://www.baseball-reference.com/players/d/donovbr01.shtml"
+    },
+    {
+      "name": "Shea Langeliers",
+      "team": "ATH",
+      "pa": 93,
+      "ops": 0.948,
+      "avg": ".310",
+      "obp": ".376",
+      "slg": ".571",
+      "ops_plus": "160",
+      "url": "https://www.baseball-reference.com/players/l/langesh01.shtml"
+    }
+  ]
+}

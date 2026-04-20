@@ -1,6 +1,6 @@
 ---
 layout: page
-title: MLB Home Runs
+title: MLB Stats
 permalink: /homers/
 ---
 
@@ -11,21 +11,24 @@ permalink: /homers/
 Updated daily at 12 PM ET &nbsp;·&nbsp; **{{ data.date }}** &nbsp;·&nbsp; {{ data.total }} home runs &nbsp;·&nbsp; *Statcast data via MLB Stats API*
 
 <style>
-  table.hr-table {
+  table.hr-table, table.ops-table {
     border-collapse: collapse;
     width: 100%;
     font-size: 1.05em;
+    margin-bottom: 2em;
   }
-  table.hr-table th, table.hr-table td {
+  table.hr-table th, table.hr-table td,
+  table.ops-table th, table.ops-table td {
     border: 1px solid #ddd;
     padding: 9px 12px;
     text-align: center;
   }
-  table.hr-table th {
+  table.hr-table th, table.ops-table th {
     background-color: #f4f4f4;
     font-weight: 700;
   }
-  table.hr-table tr:nth-child(even) {
+  table.hr-table tr:nth-child(even),
+  table.ops-table tr:nth-child(even) {
     background-color: #fafafa;
   }
   table.hr-table tr.big-fly td {
@@ -36,12 +39,14 @@ Updated daily at 12 PM ET &nbsp;·&nbsp; **{{ data.date }}** &nbsp;·&nbsp; {{ d
     color: #b85c00;
     font-size: 1.1em;
   }
-  table.hr-table td:nth-child(2) a {
+  table.hr-table td:nth-child(2) a,
+  table.ops-table td:nth-child(2) a {
     color: inherit;
     text-decoration: none;
     border-bottom: 1px dashed #888;
   }
-  table.hr-table td:nth-child(2) a:hover {
+  table.hr-table td:nth-child(2) a:hover,
+  table.ops-table td:nth-child(2) a:hover {
     border-bottom-color: #333;
   }
 </style>
@@ -84,3 +89,48 @@ Updated daily at 12 PM ET &nbsp;·&nbsp; **{{ data.date }}** &nbsp;·&nbsp; {{ d
   </tbody>
 </table>
 {% endif %}
+
+---
+
+# OPS Leaders
+
+{% assign ops = site.data.ops_leaders %}
+
+*{{ ops.fetched }} &nbsp;·&nbsp; Min. {{ ops.min_pa }} PA &nbsp;·&nbsp; Data via Baseball Reference*
+
+<table class="ops-table">
+  <thead>
+    <tr>
+      <th>#</th>
+      <th>Player</th>
+      <th>Team</th>
+      <th>OPS</th>
+      <th>OPS+</th>
+      <th>AVG</th>
+      <th>OBP</th>
+      <th>SLG</th>
+      <th>PA</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for p in ops.leaders %}
+    <tr>
+      <td>{{ forloop.index }}</td>
+      <td>
+        {% if p.url %}
+          <a href="{{ p.url }}" target="_blank" rel="noopener">{{ p.name }}</a>
+        {% else %}
+          {{ p.name }}
+        {% endif %}
+      </td>
+      <td>{{ p.team }}</td>
+      <td><strong>{{ p.ops }}</strong></td>
+      <td>{{ p.ops_plus }}</td>
+      <td>{{ p.avg }}</td>
+      <td>{{ p.obp }}</td>
+      <td>{{ p.slg }}</td>
+      <td>{{ p.pa }}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>

@@ -19,15 +19,18 @@ jobs:
           python-version: "3.11"
 
       - name: Install dependencies
-        run: pip install requests
+        run: pip install -r requirements.txt
 
       - name: Fetch home run data
         run: python fetch_homers.py
+
+      - name: Fetch OPS leaders
+        run: python fetch_ops.py
 
       - name: Commit and push
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add _data/home_runs.json
-          git commit -m "Auto-update MLB home runs" || echo "No changes to commit"
+          git add _data/home_runs.json _data/ops_leaders.json
+          git commit -m "Auto-update MLB stats" || echo "No changes to commit"
           git push origin gh-pages
