@@ -63,7 +63,7 @@ def fetch_ops_leaders():
         })
 
     players.sort(key=lambda x: x["ops"], reverse=True)
-    return players[:20]
+    return players[:60]
 
 
 def main():
