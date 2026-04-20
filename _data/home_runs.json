@@ -6,6 +6,7 @@
     {
       "batter": "Kyle Karros",
       "pitcher": "Roki Sasaki",
+      "hr_count": 1,
       "distance_ft": 448.0,
       "launch_speed": 105.9,
       "launch_angle": 30.0,
@@ -14,12 +15,12 @@
       "game": "Los Angeles Dodgers @ Colorado Rockies",
       "description": "Kyle Karros homers (1) on a fly ball to left center field.",
       "savant_url": "https://baseballsavant.mlb.com/sporty-videos?playId=8c0b4482-b045-32b2-914a-4bbefd910d7a",
-      "big_fly": true,
-      "hr_count": 1
+      "big_fly": true
     },
     {
       "batter": "Mickey Moniak",
       "pitcher": "Blake Treinen",
+      "hr_count": 6,
       "distance_ft": 428.0,
       "launch_speed": 102.4,
       "launch_angle": 30.0,
@@ -28,12 +29,12 @@
       "game": "Los Angeles Dodgers @ Colorado Rockies",
       "description": "Mickey Moniak homers (6) on a fly ball to right center field. Edouard Julien scores.",
       "savant_url": "https://baseballsavant.mlb.com/sporty-videos?playId=8f4ccabe-b352-3aea-8258-68dcab542aaa",
-      "big_fly": true,
-      "hr_count": 1
+      "big_fly": true
     },
     {
       "batter": "Aaron Judge",
       "pitcher": "Cole Ragans",
+      "hr_count": 9,
       "distance_ft": 425.0,
       "launch_speed": 111.6,
       "launch_angle": 30.0,
@@ -42,12 +43,12 @@
       "game": "Kansas City Royals @ New York Yankees",
       "description": "Aaron Judge homers (9) on a fly ball to center field. Ben Rice scores.",
       "savant_url": "https://baseballsavant.mlb.com/sporty-videos?playId=90632e50-4bda-3f29-bd2a-8020d8c7279f",
-      "big_fly": true,
-      "hr_count": 1
+      "big_fly": true
     },
     {
       "batter": "Munetaka Murakami",
       "pitcher": "Jeffrey Springs",
+      "hr_count": 8,
       "distance_ft": 425.0,
       "launch_speed": 114.1,
       "launch_angle": 35.0,
@@ -56,12 +57,12 @@
       "game": "Chicago White Sox @ Athletics",
       "description": "Munetaka Murakami homers (8) on a fly ball to right field. Miguel Vargas scores.",
       "savant_url": "https://baseballsavant.mlb.com/sporty-videos?playId=a99fc5f3-4808-38f1-8381-88835872d10a",
-      "big_fly": true,
-      "hr_count": 1
+      "big_fly": true
     },
     {
       "batter": "Jahmai Jones",
       "pitcher": "Garrett Crochet",
+      "hr_count": 1,
       "distance_ft": 423.0,
       "launch_speed": 109.0,
       "launch_angle": 24.0,
@@ -70,12 +71,12 @@
       "game": "Detroit Tigers @ Boston Red Sox",
       "description": "Jahmai Jones homers (1) on a fly ball to center field.",
       "savant_url": "https://baseballsavant.mlb.com/sporty-videos?playId=26af2fd5-9085-3b3f-905c-df6030305c36",
-      "big_fly": true,
-      "hr_count": 1
+      "big_fly": true
     },
     {
       "batter": "Colson Montgomery",
       "pitcher": "Jeffrey Springs",
+      "hr_count": 5,
       "distance_ft": 419.0,
       "launch_speed": 104.6,
       "launch_angle": 27.0,
@@ -84,12 +85,12 @@
       "game": "Chicago White Sox @ Athletics",
       "description": "Colson Montgomery homers (5) on a fly ball to center field.",
       "savant_url": "https://baseballsavant.mlb.com/sporty-videos?playId=5ba0aa4e-e77d-3135-800d-83f2577a2e5b",
-      "big_fly": false,
-      "hr_count": 1
+      "big_fly": false
     },
     {
       "batter": "Derek Hill",
       "pitcher": "Jeffrey Springs",
+      "hr_count": 1,
       "distance_ft": 415.0,
       "launch_speed": 102.0,
       "launch_angle": 35.0,
@@ -98,12 +99,12 @@
       "game": "Chicago White Sox @ Athletics",
       "description": "Derek Hill homers (1) on a fly ball to left center field.",
       "savant_url": "https://baseballsavant.mlb.com/sporty-videos?playId=67cf371c-928b-3988-9902-d62223cb14bb",
-      "big_fly": false,
-      "hr_count": 1
+      "big_fly": false
     },
     {
       "batter": "Jos\u00e9 Ram\u00edrez",
       "pitcher": "Trevor Rogers",
+      "hr_count": 5,
       "distance_ft": 408.0,
       "launch_speed": 106.2,
       "launch_angle": 30.0,
@@ -112,12 +113,12 @@
       "game": "Baltimore Orioles @ Cleveland Guardians",
       "description": "Jos\u00e9 Ram\u00edrez homers (5) on a fly ball to left center field.",
       "savant_url": "https://baseballsavant.mlb.com/sporty-videos?playId=bfc4b531-0ab6-3e60-8c6f-00e3bc042ab8",
-      "big_fly": false,
-      "hr_count": 1
+      "big_fly": false
     },
     {
       "batter": "Kazuma Okamoto",
       "pitcher": "Andrew Hoffmann",
+      "hr_count": 3,
       "distance_ft": 406.0,
       "launch_speed": 103.3,
       "launch_angle": 23.0,
@@ -126,12 +127,12 @@
       "game": "Toronto Blue Jays @ Arizona Diamondbacks",
       "description": "Kazuma Okamoto homers (3) on a fly ball to left center field.",
       "savant_url": "https://baseballsavant.mlb.com/sporty-videos?playId=70f01dcc-398e-31f3-8acf-64b7b624f523",
-      "big_fly": false,
-      "hr_count": 1
+      "big_fly": false
     },
     {
       "batter": "Junior Caminero",
       "pitcher": "Wilber Dotel",
+      "hr_count": 5,
       "distance_ft": 398.0,
       "launch_speed": 103.0,
       "launch_angle": 29.0,
@@ -140,12 +141,12 @@
       "game": "Tampa Bay Rays @ Pittsburgh Pirates",
       "description": "Junior Caminero homers (5) on a fly ball to left field.",
       "savant_url": "https://baseballsavant.mlb.com/sporty-videos?playId=9b1e3c50-f857-30e9-9173-7b172afbb2fe",
-      "big_fly": false,
-      "hr_count": 1
+      "big_fly": false
     },
     {
       "batter": "Dillon Dingler",
       "pitcher": "Garrett Crochet",
+      "hr_count": 5,
       "distance_ft": 397.0,
       "launch_speed": 101.3,
       "launch_angle": 31.0,
@@ -154,12 +155,12 @@
       "game": "Detroit Tigers @ Boston Red Sox",
       "description": "Dillon Dingler homers (5) on a fly ball to center field. Gleyber Torres scores. Matt Vierling scores.",
       "savant_url": "https://baseballsavant.mlb.com/sporty-videos?playId=b3ce4b3f-44a9-37be-88be-d42e32ddcb57",
-      "big_fly": false,
-      "hr_count": 1
+      "big_fly": false
     },
     {
       "batter": "Darell Hernaiz",
       "pitcher": "Noah Schultz",
+      "hr_count": 1,
       "distance_ft": 396.0,
       "launch_speed": 99.1,
       "launch_angle": 35.0,
@@ -168,12 +169,12 @@
       "game": "Chicago White Sox @ Athletics",
       "description": "Darell Hernaiz homers (1) on a fly ball to left field.",
       "savant_url": "https://baseballsavant.mlb.com/sporty-videos?playId=80cc587d-1d17-30f5-a2d6-147e95835df6",
-      "big_fly": false,
-      "hr_count": 1
+      "big_fly": false
     },
     {
       "batter": "Nick Yorke",
       "pitcher": "Ian Seymour",
+      "hr_count": 1,
       "distance_ft": 394.0,
       "launch_speed": 106.6,
       "launch_angle": 24.0,
@@ -182,12 +183,12 @@
       "game": "Tampa Bay Rays @ Pittsburgh Pirates",
       "description": "Nick Yorke homers (1) on a fly ball to left field.",
       "savant_url": "https://baseballsavant.mlb.com/sporty-videos?playId=2f3feb40-5dd7-3d21-9a2b-ec1a20757852",
-      "big_fly": false,
-      "hr_count": 1
+      "big_fly": false
     },
     {
       "batter": "Taylor Ward",
       "pitcher": "Joey Cantillo",
+      "hr_count": 1,
       "distance_ft": 394.0,
       "launch_speed": 107.4,
       "launch_angle": 25.0,
@@ -196,12 +197,12 @@
       "game": "Baltimore Orioles @ Cleveland Guardians",
       "description": "Taylor Ward homers (1) on a fly ball to left field. Coby Mayo scores. Sam Huff scores.",
       "savant_url": "https://baseballsavant.mlb.com/sporty-videos?playId=dbcbe09a-2fc4-3984-8211-67c9e7323a43",
-      "big_fly": false,
-      "hr_count": 1
+      "big_fly": false
     },
     {
       "batter": "Willson Contreras",
       "pitcher": "Framber Valdez",
+      "hr_count": 4,
       "distance_ft": 394.0,
       "launch_speed": 109.4,
       "launch_angle": 32.0,
@@ -210,12 +211,12 @@
       "game": "Detroit Tigers @ Boston Red Sox",
       "description": "Willson Contreras homers (4) on a fly ball to left center field.",
       "savant_url": "https://baseballsavant.mlb.com/sporty-videos?playId=25b39b43-3745-3904-8a28-5173edf39aca",
-      "big_fly": false,
-      "hr_count": 1
+      "big_fly": false
     },
     {
       "batter": "Curtis Mead",
       "pitcher": "Robbie Ray",
+      "hr_count": 2,
       "distance_ft": 390.0,
       "launch_speed": 109.6,
       "launch_angle": 27.0,
@@ -224,12 +225,12 @@
       "game": "San Francisco Giants @ Washington Nationals",
       "description": "Curtis Mead homers (2) on a fly ball to left field. Keibert Ruiz scores.",
       "savant_url": "https://baseballsavant.mlb.com/sporty-videos?playId=eb817db1-8b06-3efe-858b-51ed43f3bcbf",
-      "big_fly": false,
-      "hr_count": 1
+      "big_fly": false
     },
     {
       "batter": "Miguel Vargas",
       "pitcher": "Jeffrey Springs",
+      "hr_count": 3,
       "distance_ft": 390.0,
       "launch_speed": 98.5,
       "launch_angle": 35.0,
@@ -238,12 +239,12 @@
       "game": "Chicago White Sox @ Athletics",
       "description": "Miguel Vargas homers (3) on a fly ball to left field. Chase Meidroth scores.",
       "savant_url": "https://baseballsavant.mlb.com/sporty-videos?playId=deef3614-b735-3965-9265-bd1a005172e9",
-      "big_fly": false,
-      "hr_count": 1
+      "big_fly": false
     },
     {
       "batter": "MJ Melendez",
       "pitcher": "Javier Assad",
+      "hr_count": 1,
       "distance_ft": 387.0,
       "launch_speed": 99.9,
       "launch_angle": 35.0,
@@ -252,12 +253,12 @@
       "game": "New York Mets @ Chicago Cubs",
       "description": "MJ Melendez homers (1) on a fly ball to right center field.",
       "savant_url": "https://baseballsavant.mlb.com/sporty-videos?playId=79df3f48-8ba8-3de9-8633-fd50fe8507ba",
-      "big_fly": false,
-      "hr_count": 1
+      "big_fly": false
     },
     {
       "batter": "Rob Refsnyder",
       "pitcher": "MacKenzie Gore",
+      "hr_count": 1,
       "distance_ft": 385.0,
       "launch_speed": 106.2,
       "launch_angle": 25.0,
@@ -266,12 +267,12 @@
       "game": "Texas Rangers @ Seattle Mariners",
       "description": "Rob Refsnyder homers (1) on a fly ball to left field.",
       "savant_url": "https://baseballsavant.mlb.com/sporty-videos?playId=60cbd6ed-f31b-3f97-a4b7-b8cc6a2935cd",
-      "big_fly": false,
-      "hr_count": 1
+      "big_fly": false
     },
     {
       "batter": "Spencer Horwitz",
       "pitcher": "Mason Englert",
+      "hr_count": 2,
       "distance_ft": 383.0,
       "launch_speed": 104.0,
       "launch_angle": 36.0,
@@ -280,12 +281,12 @@
       "game": "Tampa Bay Rays @ Pittsburgh Pirates",
       "description": "Spencer Horwitz homers (2) on a fly ball to right field.",
       "savant_url": "https://baseballsavant.mlb.com/sporty-videos?playId=ea784914-cd85-31ba-9564-0b8de82bc679",
-      "big_fly": false,
-      "hr_count": 1
+      "big_fly": false
     },
     {
       "batter": "Kyle Schwarber",
       "pitcher": "Grant Holmes",
+      "hr_count": 7,
       "distance_ft": 381.0,
       "launch_speed": 107.1,
       "launch_angle": 25.0,
@@ -294,12 +295,12 @@
       "game": "Atlanta Braves @ Philadelphia Phillies",
       "description": "Umpire reviewed (home run), call on the field was upheld: Kyle Schwarber homers (7) on a fly ball to right center field. Trea Turner scores.",
       "savant_url": "https://baseballsavant.mlb.com/sporty-videos?playId=30103ce4-5c12-3716-9ce6-bf846d588695",
-      "big_fly": false,
-      "hr_count": 1
+      "big_fly": false
     },
     {
       "batter": "Jos\u00e9 Ram\u00edrez",
       "pitcher": "Trevor Rogers",
+      "hr_count": 6,
       "distance_ft": 379.0,
       "launch_speed": 103.6,
       "launch_angle": 30.0,
@@ -308,12 +309,12 @@
       "game": "Baltimore Orioles @ Cleveland Guardians",
       "description": "Jos\u00e9 Ram\u00edrez homers (6) on a fly ball to left field.",
       "savant_url": "https://baseballsavant.mlb.com/sporty-videos?playId=8ceaa0ac-a8ac-3f2e-8959-1674be745e09",
-      "big_fly": false,
-      "hr_count": 2
+      "big_fly": false
     },
     {
       "batter": "Michael Harris II",
       "pitcher": "Andrew Painter",
+      "hr_count": 4,
       "distance_ft": 376.0,
       "launch_speed": 101.9,
       "launch_angle": 37.0,
@@ -322,12 +323,12 @@
       "game": "Atlanta Braves @ Philadelphia Phillies",
       "description": "Michael Harris II homers (4) on a fly ball to right field.",
       "savant_url": "https://baseballsavant.mlb.com/sporty-videos?playId=755aedca-3b9a-3d1c-856a-5a1152530cb3",
-      "big_fly": false,
-      "hr_count": 1
+      "big_fly": false
     },
     {
       "batter": "Trent Grisham",
       "pitcher": "Cole Ragans",
+      "hr_count": 3,
       "distance_ft": 369.0,
       "launch_speed": 103.0,
       "launch_angle": 34.0,
@@ -336,12 +337,12 @@
       "game": "Kansas City Royals @ New York Yankees",
       "description": "Trent Grisham homers (3) on a fly ball to right field. Cody Bellinger scores. Paul Goldschmidt scores.",
       "savant_url": "https://baseballsavant.mlb.com/sporty-videos?playId=6021966a-5930-3bff-bcb9-009791bd8689",
-      "big_fly": false,
-      "hr_count": 1
+      "big_fly": false
     },
     {
       "batter": "J.P. Crawford",
       "pitcher": "MacKenzie Gore",
+      "hr_count": 1,
       "distance_ft": 369.0,
       "launch_speed": 107.8,
       "launch_angle": 22.0,
@@ -350,12 +351,12 @@
       "game": "Texas Rangers @ Seattle Mariners",
       "description": "J.P. Crawford homers (1) on a fly ball to right field. Mitch Garver scores.",
       "savant_url": "https://baseballsavant.mlb.com/sporty-videos?playId=ed1ddbbb-7a53-30fd-8d24-7f75b54c5941",
-      "big_fly": false,
-      "hr_count": 1
+      "big_fly": false
     },
     {
       "batter": "Yordan Alvarez",
       "pitcher": "JoJo Romero",
+      "hr_count": 10,
       "distance_ft": 357.0,
       "launch_speed": 95.8,
       "launch_angle": 28.0,
@@ -364,12 +365,12 @@
       "game": "St. Louis Cardinals @ Houston Astros",
       "description": "Yordan Alvarez homers (10) on a fly ball to right field.",
       "savant_url": "https://baseballsavant.mlb.com/sporty-videos?playId=12b94b66-a31d-36b8-a658-774d27c201bf",
-      "big_fly": false,
-      "hr_count": 1
+      "big_fly": false
     },
     {
       "batter": "Jorge Barrosa",
       "pitcher": "Mason Fluharty",
+      "hr_count": 1,
       "distance_ft": 351.0,
       "launch_speed": 98.3,
       "launch_angle": 28.0,
@@ -378,12 +379,12 @@
       "game": "Toronto Blue Jays @ Arizona Diamondbacks",
       "description": "Jorge Barrosa homers (1) on a fly ball to left field. Ketel Marte scores.",
       "savant_url": "https://baseballsavant.mlb.com/sporty-videos?playId=cc6d3bc3-3d98-3bbc-90fc-521a54e6bd76",
-      "big_fly": false,
-      "hr_count": 1
+      "big_fly": false
     },
     {
       "batter": "Ben Rice",
       "pitcher": "Cole Ragans",
+      "hr_count": 8,
       "distance_ft": 350.0,
       "launch_speed": 97.9,
       "launch_angle": 33.0,
@@ -392,12 +393,12 @@
       "game": "Kansas City Royals @ New York Yankees",
       "description": "Ben Rice homers (8) on a fly ball to right field.",
       "savant_url": "https://baseballsavant.mlb.com/sporty-videos?playId=6a20b272-df5e-30d2-b318-151d17430037",
-      "big_fly": false,
-      "hr_count": 1
+      "big_fly": false
     },
     {
       "batter": "Randy Arozarena",
       "pitcher": "MacKenzie Gore",
+      "hr_count": 2,
       "distance_ft": 347.0,
       "launch_speed": 103.8,
       "launch_angle": 27.0,
@@ -406,8 +407,7 @@
       "game": "Texas Rangers @ Seattle Mariners",
       "description": "Randy Arozarena homers (2) on a fly ball to left field. Julio Rodr\u00edguez scores.",
       "savant_url": "https://baseballsavant.mlb.com/sporty-videos?playId=5ab34057-d5b8-3e53-ac6e-c0c1231a736b",
-      "big_fly": false,
-      "hr_count": 1
+      "big_fly": false
     }
   ]
 }
