@@ -8,7 +8,7 @@ permalink: /homers/
 
 {% assign data = site.data.home_runs %}
 
-Updated daily at 2 AM ET &nbsp;·&nbsp; **{{ data.date }}** &nbsp;·&nbsp; {{ data.total }} home runs &nbsp;·&nbsp; *Statcast data via MLB Stats API*
+Updated daily at 12 PM ET &nbsp;·&nbsp; **{{ data.date }}** &nbsp;·&nbsp; {{ data.total }} home runs &nbsp;·&nbsp; *Statcast data via MLB Stats API*
 
 <style>
   table.hr-table {
