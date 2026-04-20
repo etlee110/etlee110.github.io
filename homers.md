@@ -109,7 +109,6 @@ Updated daily at 12 PM ET &nbsp;·&nbsp; **{{ data.date }}** &nbsp;·&nbsp; {{ d
       <th>Player</th>
       <th>Team</th>
       <th>OPS</th>
-      <th>OPS+</th>
       <th>AVG</th>
       <th>OBP</th>
       <th>SLG</th>
@@ -129,7 +128,6 @@ Updated daily at 12 PM ET &nbsp;·&nbsp; **{{ data.date }}** &nbsp;·&nbsp; {{ d
       </td>
       <td>{{ p.team }}</td>
       <td><strong>{{ p.ops }}</strong></td>
-      <td>{{ p.ops_plus }}</td>
       <td>{{ p.avg }}</td>
       <td>{{ p.obp }}</td>
       <td>{{ p.slg }}</td>

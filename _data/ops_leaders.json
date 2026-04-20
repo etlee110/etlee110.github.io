@@ -4,223 +4,603 @@
   "leaders": [
     {
       "name": "Ben Rice",
-      "team": "NYY",
+      "team": "New York Yankees",
       "pa": 84,
-      "ops": 1.276,
+      "ops": "1.276",
       "avg": ".338",
       "obp": ".476",
       "slg": ".800",
-      "ops_plus": "259",
-      "url": "https://www.baseball-reference.com/players/r/ricebe01.shtml"
+      "url": "https://www.mlb.com/player/700250"
     },
     {
       "name": "Yordan Alvarez",
-      "team": "HOU",
+      "team": "Houston Astros",
       "pa": 104,
-      "ops": 1.261,
+      "ops": "1.261",
       "avg": ".333",
       "obp": ".471",
       "slg": ".790",
-      "ops_plus": "255",
-      "url": "https://www.baseball-reference.com/players/a/alvaryo01.shtml"
+      "url": "https://www.mlb.com/player/670541"
     },
     {
       "name": "Andy Pages",
-      "team": "LAD",
+      "team": "Los Angeles Dodgers",
       "pa": 84,
-      "ops": 1.06,
+      "ops": "1.061",
       "avg": ".382",
       "obp": ".429",
       "slg": ".632",
-      "ops_plus": "198",
-      "url": "https://www.baseball-reference.com/players/p/pagesan01.shtml"
-    },
-    {
-      "name": "Gary S\u00e1nchez",
-      "team": "MIL",
-      "pa": 56,
-      "ops": 1.048,
-      "avg": ".238",
-      "obp": ".429",
-      "slg": ".619",
-      "ops_plus": "192",
-      "url": "https://www.baseball-reference.com/players/s/sanchga02.shtml"
+      "url": "https://www.mlb.com/player/681624"
     },
     {
       "name": "CJ Abrams",
-      "team": "WSN",
+      "team": "Washington Nationals",
       "pa": 91,
-      "ops": 1.029,
+      "ops": "1.029",
       "avg": ".320",
       "obp": ".429",
       "slg": ".600",
-      "ops_plus": "193",
-      "url": "https://www.baseball-reference.com/players/a/abramcj01.shtml"
+      "url": "https://www.mlb.com/player/682928"
     },
     {
       "name": "Jordan Walker",
-      "team": "STL",
+      "team": "St. Louis Cardinals",
       "pa": 90,
-      "ops": 1.013,
+      "ops": "1.013",
       "avg": ".305",
       "obp": ".367",
       "slg": ".646",
-      "ops_plus": "188",
-      "url": "https://www.baseball-reference.com/players/w/walkejo02.shtml"
+      "url": "https://www.mlb.com/player/691023"
     },
     {
       "name": "Brice Turang",
-      "team": "MIL",
+      "team": "Milwaukee Brewers",
       "pa": 88,
-      "ops": 1.008,
+      "ops": "1.008",
       "avg": ".300",
       "obp": ".437",
       "slg": ".571",
-      "ops_plus": "183",
-      "url": "https://www.baseball-reference.com/players/t/turanbr02.shtml"
-    },
-    {
-      "name": "Dominic Smith",
-      "team": "ATL",
-      "pa": 54,
-      "ops": 0.998,
-      "avg": ".353",
-      "obp": ".370",
-      "slg": ".627",
-      "ops_plus": "176",
-      "url": "https://www.baseball-reference.com/players/s/smithdo02.shtml"
+      "url": "https://www.mlb.com/player/668930"
     },
     {
       "name": "Luke Raley",
-      "team": "SEA",
+      "team": "Seattle Mariners",
       "pa": 73,
-      "ops": 0.997,
+      "ops": ".997",
       "avg": ".313",
       "obp": ".370",
       "slg": ".627",
-      "ops_plus": "188",
-      "url": "https://www.baseball-reference.com/players/r/raleylu01.shtml"
+      "url": "https://www.mlb.com/player/670042"
     },
     {
       "name": "Corbin Carroll",
-      "team": "ARI",
+      "team": "Arizona Diamondbacks",
       "pa": 82,
-      "ops": 0.99,
+      "ops": ".990",
       "avg": ".300",
       "obp": ".390",
       "slg": ".600",
-      "ops_plus": "173",
-      "url": "https://www.baseball-reference.com/players/c/carroco02.shtml"
-    },
-    {
-      "name": "Joey Wiemer",
-      "team": "WSN",
-      "pa": 50,
-      "ops": 0.988,
-      "avg": ".341",
-      "obp": ".420",
-      "slg": ".568",
-      "ops_plus": "182",
-      "url": "https://www.baseball-reference.com/players/w/wiemejo01.shtml"
-    },
-    {
-      "name": "Ildemaro Vargas",
-      "team": "ARI",
-      "pa": 60,
-      "ops": 0.986,
-      "avg": ".368",
-      "obp": ".390",
-      "slg": ".596",
-      "ops_plus": "172",
-      "url": "https://www.baseball-reference.com/players/v/vargail01.shtml"
-    },
-    {
-      "name": "Dillon Dingler",
-      "team": "DET",
-      "pa": 73,
-      "ops": 0.983,
-      "avg": ".302",
-      "obp": ".380",
-      "slg": ".603",
-      "ops_plus": "175",
-      "url": "https://www.baseball-reference.com/players/d/dingldi01.shtml"
+      "url": "https://www.mlb.com/player/682998"
     },
     {
       "name": "Mike Trout",
-      "team": "LAA",
+      "team": "Los Angeles Angels",
       "pa": 102,
-      "ops": 0.98,
+      "ops": ".980",
       "avg": ".234",
       "obp": ".422",
       "slg": ".558",
-      "ops_plus": "180",
-      "url": "https://www.baseball-reference.com/players/t/troutmi01.shtml"
+      "url": "https://www.mlb.com/player/545361"
     },
     {
       "name": "Sal Stewart",
-      "team": "CIN",
+      "team": "Cincinnati Reds",
       "pa": 94,
-      "ops": 0.978,
+      "ops": ".978",
       "avg": ".278",
       "obp": ".383",
       "slg": ".595",
-      "ops_plus": "164",
-      "url": "https://www.baseball-reference.com/players/s/stewasa02.shtml"
+      "url": "https://www.mlb.com/player/701398"
     },
     {
       "name": "Brandon Lowe",
-      "team": "PIT",
+      "team": "Pittsburgh Pirates",
       "pa": 88,
-      "ops": 0.975,
+      "ops": ".975",
       "avg": ".267",
       "obp": ".375",
       "slg": ".600",
-      "ops_plus": "170",
-      "url": "https://www.baseball-reference.com/players/l/lowebr01.shtml"
+      "url": "https://www.mlb.com/player/664040"
     },
     {
       "name": "Ryan O'Hearn",
-      "team": "PIT",
+      "team": "Pittsburgh Pirates",
       "pa": 84,
-      "ops": 0.96,
+      "ops": ".960",
       "avg": ".329",
       "obp": ".417",
       "slg": ".543",
-      "ops_plus": "168",
-      "url": "https://www.baseball-reference.com/players/o/ohearry01.shtml"
-    },
-    {
-      "name": "Mickey Moniak",
-      "team": "COL",
-      "pa": 59,
-      "ops": 0.96,
-      "avg": ".273",
-      "obp": ".305",
-      "slg": ".655",
-      "ops_plus": "152",
-      "url": "https://www.baseball-reference.com/players/m/moniami01.shtml"
+      "url": "https://www.mlb.com/player/656811"
     },
     {
       "name": "Brendan Donovan",
-      "team": "SEA",
+      "team": "Seattle Mariners",
       "pa": 71,
-      "ops": 0.954,
+      "ops": ".955",
       "avg": ".304",
       "obp": ".437",
       "slg": ".518",
-      "ops_plus": "180",
-      "url": "https://www.baseball-reference.com/players/d/donovbr01.shtml"
+      "url": "https://www.mlb.com/player/680977"
     },
     {
       "name": "Shea Langeliers",
-      "team": "ATH",
+      "team": "Athletics",
       "pa": 93,
-      "ops": 0.948,
+      "ops": ".947",
       "avg": ".310",
       "obp": ".376",
       "slg": ".571",
-      "ops_plus": "160",
-      "url": "https://www.baseball-reference.com/players/l/langesh01.shtml"
+      "url": "https://www.mlb.com/player/669127"
+    },
+    {
+      "name": "Matt Olson",
+      "team": "Atlanta Braves",
+      "pa": 99,
+      "ops": ".944",
+      "avg": ".279",
+      "obp": ".374",
+      "slg": ".570",
+      "url": "https://www.mlb.com/player/621566"
+    },
+    {
+      "name": "Otto Lopez",
+      "team": "Miami Marlins",
+      "pa": 88,
+      "ops": ".936",
+      "avg": ".338",
+      "obp": ".386",
+      "slg": ".550",
+      "url": "https://www.mlb.com/player/672640"
+    },
+    {
+      "name": "Kyle Schwarber",
+      "team": "Philadelphia Phillies",
+      "pa": 93,
+      "ops": ".936",
+      "avg": ".227",
+      "obp": ".376",
+      "slg": ".560",
+      "url": "https://www.mlb.com/player/656941"
+    },
+    {
+      "name": "Dillon Dingler",
+      "team": "Detroit Tigers",
+      "pa": 78,
+      "ops": ".935",
+      "avg": ".284",
+      "obp": ".368",
+      "slg": ".567",
+      "url": "https://www.mlb.com/player/693307"
+    },
+    {
+      "name": "Yandy D\u00edaz",
+      "team": "Tampa Bay Rays",
+      "pa": 96,
+      "ops": ".933",
+      "avg": ".337",
+      "obp": ".427",
+      "slg": ".506",
+      "url": "https://www.mlb.com/player/650490"
+    },
+    {
+      "name": "James Wood",
+      "team": "Washington Nationals",
+      "pa": 108,
+      "ops": ".931",
+      "avg": ".247",
+      "obp": ".380",
+      "slg": ".551",
+      "url": "https://www.mlb.com/player/695578"
+    },
+    {
+      "name": "Aaron Judge",
+      "team": "New York Yankees",
+      "pa": 95,
+      "ops": ".928",
+      "avg": ".232",
+      "obp": ".330",
+      "slg": ".598",
+      "url": "https://www.mlb.com/player/592450"
+    },
+    {
+      "name": "Liam Hicks",
+      "team": "Miami Marlins",
+      "pa": 75,
+      "ops": ".925",
+      "avg": ".328",
+      "obp": ".373",
+      "slg": ".552",
+      "url": "https://www.mlb.com/player/689414"
+    },
+    {
+      "name": "Nico Hoerner",
+      "team": "Chicago Cubs",
+      "pa": 97,
+      "ops": ".920",
+      "avg": ".325",
+      "obp": ".402",
+      "slg": ".518",
+      "url": "https://www.mlb.com/player/663538"
+    },
+    {
+      "name": "Munetaka Murakami",
+      "team": "Chicago White Sox",
+      "pa": 93,
+      "ops": ".918",
+      "avg": ".208",
+      "obp": ".376",
+      "slg": ".542",
+      "url": "https://www.mlb.com/player/808959"
+    },
+    {
+      "name": "Oneil Cruz",
+      "team": "Pittsburgh Pirates",
+      "pa": 99,
+      "ops": ".915",
+      "avg": ".292",
+      "obp": ".364",
+      "slg": ".551",
+      "url": "https://www.mlb.com/player/665833"
+    },
+    {
+      "name": "Shohei Ohtani",
+      "team": "Los Angeles Dodgers",
+      "pa": 97,
+      "ops": ".915",
+      "avg": ".273",
+      "obp": ".396",
+      "slg": ".519",
+      "url": "https://www.mlb.com/player/660271"
+    },
+    {
+      "name": "Brandon Nimmo",
+      "team": "Texas Rangers",
+      "pa": 101,
+      "ops": ".908",
+      "avg": ".311",
+      "obp": ".386",
+      "slg": ".522",
+      "url": "https://www.mlb.com/player/607043"
+    },
+    {
+      "name": "Kevin McGonigle",
+      "team": "Detroit Tigers",
+      "pa": 95,
+      "ops": ".899",
+      "avg": ".317",
+      "obp": ".411",
+      "slg": ".488",
+      "url": "https://www.mlb.com/player/805808"
+    },
+    {
+      "name": "Troy Johnston",
+      "team": "Colorado Rockies",
+      "pa": 69,
+      "ops": ".898",
+      "avg": ".323",
+      "obp": ".382",
+      "slg": ".516",
+      "url": "https://www.mlb.com/player/687859"
+    },
+    {
+      "name": "Ian Happ",
+      "team": "Chicago Cubs",
+      "pa": 88,
+      "ops": ".885",
+      "avg": ".240",
+      "obp": ".352",
+      "slg": ".533",
+      "url": "https://www.mlb.com/player/664023"
+    },
+    {
+      "name": "Bryce Harper",
+      "team": "Philadelphia Phillies",
+      "pa": 88,
+      "ops": ".883",
+      "avg": ".273",
+      "obp": ".364",
+      "slg": ".519",
+      "url": "https://www.mlb.com/player/547180"
+    },
+    {
+      "name": "Jose Altuve",
+      "team": "Houston Astros",
+      "pa": 99,
+      "ops": ".880",
+      "avg": ".298",
+      "obp": ".404",
+      "slg": ".476",
+      "url": "https://www.mlb.com/player/514888"
+    },
+    {
+      "name": "Jeremiah Jackson",
+      "team": "Baltimore Orioles",
+      "pa": 69,
+      "ops": ".880",
+      "avg": ".303",
+      "obp": ".319",
+      "slg": ".561",
+      "url": "https://www.mlb.com/player/669236"
+    },
+    {
+      "name": "Francisco Alvarez",
+      "team": "New York Mets",
+      "pa": 68,
+      "ops": ".879",
+      "avg": ".268",
+      "obp": ".379",
+      "slg": ".500",
+      "url": "https://www.mlb.com/player/682626"
+    },
+    {
+      "name": "Xavier Edwards",
+      "team": "Miami Marlins",
+      "pa": 94,
+      "ops": ".879",
+      "avg": ".337",
+      "obp": ".409",
+      "slg": ".470",
+      "url": "https://www.mlb.com/player/669364"
+    },
+    {
+      "name": "Freddie Freeman",
+      "team": "Los Angeles Dodgers",
+      "pa": 89,
+      "ops": ".879",
+      "avg": ".296",
+      "obp": ".360",
+      "slg": ".519",
+      "url": "https://www.mlb.com/player/518692"
+    },
+    {
+      "name": "Casey Schmitt",
+      "team": "San Francisco Giants",
+      "pa": 69,
+      "ops": ".878",
+      "avg": ".313",
+      "obp": ".362",
+      "slg": ".516",
+      "url": "https://www.mlb.com/player/669477"
+    },
+    {
+      "name": "Willson Contreras",
+      "team": "Boston Red Sox",
+      "pa": 89,
+      "ops": ".870",
+      "avg": ".274",
+      "obp": ".404",
+      "slg": ".466",
+      "url": "https://www.mlb.com/player/575929"
+    },
+    {
+      "name": "Drake Baldwin",
+      "team": "Atlanta Braves",
+      "pa": 101,
+      "ops": ".866",
+      "avg": ".304",
+      "obp": ".366",
+      "slg": ".500",
+      "url": "https://www.mlb.com/player/686948"
+    },
+    {
+      "name": "Max Muncy",
+      "team": "Los Angeles Dodgers",
+      "pa": 80,
+      "ops": ".866",
+      "avg": ".264",
+      "obp": ".338",
+      "slg": ".528",
+      "url": "https://www.mlb.com/player/571970"
+    },
+    {
+      "name": "Vladimir Guerrero Jr.",
+      "team": "Toronto Blue Jays",
+      "pa": 91,
+      "ops": ".865",
+      "avg": ".333",
+      "obp": ".429",
+      "slg": ".436",
+      "url": "https://www.mlb.com/player/665489"
+    },
+    {
+      "name": "Elly De La Cruz",
+      "team": "Cincinnati Reds",
+      "pa": 98,
+      "ops": ".860",
+      "avg": ".261",
+      "obp": ".337",
+      "slg": ".523",
+      "url": "https://www.mlb.com/player/682829"
+    },
+    {
+      "name": "William Contreras",
+      "team": "Milwaukee Brewers",
+      "pa": 84,
+      "ops": ".859",
+      "avg": ".301",
+      "obp": ".393",
+      "slg": ".466",
+      "url": "https://www.mlb.com/player/661388"
+    },
+    {
+      "name": "Hunter Goodman",
+      "team": "Colorado Rockies",
+      "pa": 83,
+      "ops": ".851",
+      "avg": ".257",
+      "obp": ".337",
+      "slg": ".514",
+      "url": "https://www.mlb.com/player/696100"
+    },
+    {
+      "name": "Jos\u00e9 Ram\u00edrez",
+      "team": "Cleveland Guardians",
+      "pa": 99,
+      "ops": ".848",
+      "avg": ".229",
+      "obp": ".354",
+      "slg": ".494",
+      "url": "https://www.mlb.com/player/608070"
+    },
+    {
+      "name": "Chase DeLauter",
+      "team": "Cleveland Guardians",
+      "pa": 80,
+      "ops": ".847",
+      "avg": ".232",
+      "obp": ".325",
+      "slg": ".522",
+      "url": "https://www.mlb.com/player/800050"
+    },
+    {
+      "name": "Taylor Ward",
+      "team": "Baltimore Orioles",
+      "pa": 103,
+      "ops": ".843",
+      "avg": ".295",
+      "obp": ".388",
+      "slg": ".455",
+      "url": "https://www.mlb.com/player/621493"
+    },
+    {
+      "name": "Cody Bellinger",
+      "team": "New York Yankees",
+      "pa": 92,
+      "ops": ".841",
+      "avg": ".276",
+      "obp": ".380",
+      "slg": ".461",
+      "url": "https://www.mlb.com/player/641355"
+    },
+    {
+      "name": "Garrett Mitchell",
+      "team": "Milwaukee Brewers",
+      "pa": 67,
+      "ops": ".839",
+      "avg": ".260",
+      "obp": ".439",
+      "slg": ".400",
+      "url": "https://www.mlb.com/player/669003"
+    },
+    {
+      "name": "Zach Neto",
+      "team": "Los Angeles Angels",
+      "pa": 108,
+      "ops": ".837",
+      "avg": ".244",
+      "obp": ".370",
+      "slg": ".467",
+      "url": "https://www.mlb.com/player/687263"
+    },
+    {
+      "name": "Christian Walker",
+      "team": "Houston Astros",
+      "pa": 93,
+      "ops": ".836",
+      "avg": ".253",
+      "obp": ".355",
+      "slg": ".481",
+      "url": "https://www.mlb.com/player/572233"
+    },
+    {
+      "name": "Ram\u00f3n Laureano",
+      "team": "San Diego Padres",
+      "pa": 85,
+      "ops": ".835",
+      "avg": ".273",
+      "obp": ".329",
+      "slg": ".506",
+      "url": "https://www.mlb.com/player/657656"
+    },
+    {
+      "name": "Wilyer Abreu",
+      "team": "Boston Red Sox",
+      "pa": 88,
+      "ops": ".833",
+      "avg": ".296",
+      "obp": ".352",
+      "slg": ".481",
+      "url": "https://www.mlb.com/player/677800"
+    },
+    {
+      "name": "Jorge Soler",
+      "team": "Los Angeles Angels",
+      "pa": 83,
+      "ops": ".830",
+      "avg": ".232",
+      "obp": ".337",
+      "slg": ".493",
+      "url": "https://www.mlb.com/player/624585"
+    },
+    {
+      "name": "Randy Arozarena",
+      "team": "Seattle Mariners",
+      "pa": 97,
+      "ops": ".829",
+      "avg": ".293",
+      "obp": ".402",
+      "slg": ".427",
+      "url": "https://www.mlb.com/player/668227"
+    },
+    {
+      "name": "Josh Jung",
+      "team": "Texas Rangers",
+      "pa": 76,
+      "ops": ".820",
+      "avg": ".290",
+      "obp": ".342",
+      "slg": ".478",
+      "url": "https://www.mlb.com/player/673962"
+    },
+    {
+      "name": "Alec Burleson",
+      "team": "St. Louis Cardinals",
+      "pa": 95,
+      "ops": ".819",
+      "avg": ".280",
+      "obp": ".368",
+      "slg": ".451",
+      "url": "https://www.mlb.com/player/676475"
+    },
+    {
+      "name": "Teoscar Hern\u00e1ndez",
+      "team": "Los Angeles Dodgers",
+      "pa": 72,
+      "ops": ".819",
+      "avg": ".273",
+      "obp": ".319",
+      "slg": ".500",
+      "url": "https://www.mlb.com/player/606192"
+    },
+    {
+      "name": "Michael Harris II",
+      "team": "Atlanta Braves",
+      "pa": 74,
+      "ops": ".816",
+      "avg": ".290",
+      "obp": ".338",
+      "slg": ".478",
+      "url": "https://www.mlb.com/player/671739"
+    },
+    {
+      "name": "Bryan Reynolds",
+      "team": "Pittsburgh Pirates",
+      "pa": 97,
+      "ops": ".810",
+      "avg": ".266",
+      "obp": ".392",
+      "slg": ".418",
+      "url": "https://www.mlb.com/player/668804"
     }
   ]
 }
