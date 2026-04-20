@@ -83,6 +83,7 @@ def main():
 
     output = {
         "date": target_date,
+        "no_games": len(games) == 0,
         "total": len(all_home_runs),
         "home_runs": all_home_runs,
     }

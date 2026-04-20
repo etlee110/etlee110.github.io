@@ -46,6 +46,11 @@ Updated daily at 12 PM ET &nbsp;·&nbsp; **{{ data.date }}** &nbsp;·&nbsp; {{ d
   }
 </style>
 
+{% if data.no_games %}
+<p><em>No games on {{ data.date }}.</em></p>
+{% elsif data.total == 0 %}
+<p><em>No home runs on {{ data.date }}.</em></p>
+{% else %}
 <table class="hr-table">
   <thead>
     <tr>
@@ -78,3 +83,4 @@ Updated daily at 12 PM ET &nbsp;·&nbsp; **{{ data.date }}** &nbsp;·&nbsp; {{ d
     {% endfor %}
   </tbody>
 </table>
+{% endif %}
