@@ -2,7 +2,7 @@ name: Fetch MLB Home Runs
 
 on:
   schedule:
-    - cron: "0 6 * * *"  # 2 AM ET (UTC-4 during MLB season)
+    - cron: "0 16 * * *"  # 12 PM ET (UTC-4 during MLB season)
   workflow_dispatch:      # allow manual trigger
 
 jobs:
