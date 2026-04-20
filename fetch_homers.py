@@ -49,8 +49,11 @@ def get_home_runs(game_pk):
 
         distance = hit_data.get("totalDistance")
 
+        pitcher = play.get("matchup", {}).get("pitcher", {}).get("fullName", "Unknown")
+
         home_runs.append({
             "batter": batter,
+            "pitcher": pitcher,
             "distance_ft": distance,
             "launch_speed": hit_data.get("launchSpeed"),
             "launch_angle": hit_data.get("launchAngle"),
@@ -80,6 +83,12 @@ def main():
             print(f"[warn] game {game['gamePk']}: {e}")
 
     all_home_runs.sort(key=lambda x: x["distance_ft"] or 0, reverse=True)
+
+    # Count cumulative HRs per batter (in distance-sorted order)
+    batter_hr_count = {}
+    for hr in all_home_runs:
+        batter_hr_count[hr["batter"]] = batter_hr_count.get(hr["batter"], 0) + 1
+        hr["hr_count"] = batter_hr_count[hr["batter"]]
 
     output = {
         "date": target_date,

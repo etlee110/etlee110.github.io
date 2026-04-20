@@ -35,7 +35,7 @@ Updated daily at 12 PM ET &nbsp;·&nbsp; **{{ data.date }}** &nbsp;·&nbsp; {{ d
     background-color: #fff3cd;
     font-weight: 700;
   }
-  table.hr-table tr.big-fly td:nth-child(3) {
+  table.hr-table tr.big-fly td:nth-child(4) {
     color: #b85c00;
     font-size: 1.1em;
   }
@@ -61,9 +61,11 @@ Updated daily at 12 PM ET &nbsp;·&nbsp; **{{ data.date }}** &nbsp;·&nbsp; {{ d
     <tr>
       <th>#</th>
       <th>Batter</th>
+      <th>HR #</th>
       <th>Distance (ft)</th>
       <th>Exit Velo (mph)</th>
       <th>Launch Angle (°)</th>
+      <th>Pitcher</th>
       <th>Inning</th>
       <th>Game</th>
     </tr>
@@ -79,9 +81,11 @@ Updated daily at 12 PM ET &nbsp;·&nbsp; **{{ data.date }}** &nbsp;·&nbsp; {{ d
           {{ hr.batter }}
         {% endif %}
       </td>
+      <td>{{ hr.hr_count }}</td>
       <td>{% if hr.distance_ft %}{{ hr.distance_ft }}{% else %}—{% endif %}</td>
       <td>{% if hr.launch_speed %}{{ hr.launch_speed }}{% else %}—{% endif %}</td>
       <td>{% if hr.launch_angle %}{{ hr.launch_angle }}{% else %}—{% endif %}</td>
+      <td>{{ hr.pitcher }}</td>
       <td>{% if hr.half_inning == "top" %}Top{% else %}Bot{% endif %} {{ hr.inning }}</td>
       <td>{{ hr.game }}</td>
     </tr>
