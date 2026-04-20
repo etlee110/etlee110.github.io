@@ -1,7 +1,5 @@
 menu:
-- {name: 'Official Stuff', url: '/courses/BST236ComputingI'}
-- {name: 'Blog', url: '/blog'}
-- {name: 'Stonks', url: '/stocks'}
+- {name: 'BST 236', url: '/courses/BST236ComputingI'}
 - {name: 'Contact', url: '/contact'}
 - {name: 'Homers', url: '/homers'}
 
