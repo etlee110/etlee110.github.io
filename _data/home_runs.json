@@ -1,6 +1,21 @@
 {
-  "date": "2026-07-13",
-  "no_games": true,
-  "total": 0,
-  "home_runs": []
+  "date": "2026-07-14",
+  "no_games": false,
+  "total": 1,
+  "home_runs": [
+    {
+      "batter": "Miguel Vargas",
+      "pitcher": "Justin Wrobleski",
+      "hr_count": 1,
+      "distance_ft": 433.0,
+      "launch_speed": 107.3,
+      "launch_angle": 32.0,
+      "inning": 8,
+      "half_inning": "top",
+      "game": "American League All-Stars @ National League All-Stars",
+      "description": "Miguel Vargas homers (1) on a fly ball to left field.",
+      "savant_url": "https://baseballsavant.mlb.com/sporty-videos?playId=7f62dc6f-a8a5-3021-a3e9-092ebb93bd2c",
+      "big_fly": true
+    }
+  ]
 }
