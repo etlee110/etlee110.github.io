@@ -1,6 +1,63 @@
 {
-  "date": "2026-07-15",
-  "no_games": true,
-  "total": 0,
-  "home_runs": []
+  "date": "2026-07-16",
+  "no_games": false,
+  "total": 4,
+  "home_runs": [
+    {
+      "batter": "Francisco Alvarez",
+      "pitcher": "Aaron Nola",
+      "hr_count": 10,
+      "distance_ft": 416.0,
+      "launch_speed": 100.2,
+      "launch_angle": 32.0,
+      "inning": 3,
+      "half_inning": "top",
+      "game": "New York Mets @ Philadelphia Phillies",
+      "description": "Francisco Alvarez homers (10) on a fly ball to center field.",
+      "savant_url": "https://baseballsavant.mlb.com/sporty-videos?playId=54782dc0-3622-327f-b86a-024cc6105658",
+      "big_fly": false
+    },
+    {
+      "batter": "Trea Turner",
+      "pitcher": "Luke Weaver",
+      "hr_count": 11,
+      "distance_ft": 383.0,
+      "launch_speed": 101.2,
+      "launch_angle": 35.0,
+      "inning": 8,
+      "half_inning": "bottom",
+      "game": "New York Mets @ Philadelphia Phillies",
+      "description": "Trea Turner homers (11) on a fly ball to left field.",
+      "savant_url": "https://baseballsavant.mlb.com/sporty-videos?playId=6d4d5068-b3ea-3e1f-b17c-87a36b6ebcd5",
+      "big_fly": false
+    },
+    {
+      "batter": "Brett Baty",
+      "pitcher": "Aaron Nola",
+      "hr_count": 5,
+      "distance_ft": 378.0,
+      "launch_speed": 95.6,
+      "launch_angle": 36.0,
+      "inning": 7,
+      "half_inning": "top",
+      "game": "New York Mets @ Philadelphia Phillies",
+      "description": "Brett Baty homers (5) on a fly ball to right center field.",
+      "savant_url": "https://baseballsavant.mlb.com/sporty-videos?playId=a680e84a-2764-3a57-bd93-bddf7a1a6867",
+      "big_fly": false
+    },
+    {
+      "batter": "Francisco Alvarez",
+      "pitcher": "Aaron Nola",
+      "hr_count": 11,
+      "distance_ft": 363.0,
+      "launch_speed": 104.4,
+      "launch_angle": 21.0,
+      "inning": 7,
+      "half_inning": "top",
+      "game": "New York Mets @ Philadelphia Phillies",
+      "description": "Francisco Alvarez homers (11) on a line drive to left field.",
+      "savant_url": "https://baseballsavant.mlb.com/sporty-videos?playId=62888379-b037-3d75-9bdc-b7f06edc76e9",
+      "big_fly": false
+    }
+  ]
 }

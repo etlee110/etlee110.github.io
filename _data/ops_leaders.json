@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-07-16",
+  "fetched": "2026-07-17",
   "min_pa": 50,
   "leaders": [
     {
@@ -25,6 +25,17 @@
       "url": "https://www.baseball-reference.com/players/w/woodja01.shtml"
     },
     {
+      "name": "Juan Soto",
+      "team": "New York Mets",
+      "pa": 338,
+      "ops": ".975",
+      "avg": ".292",
+      "obp": ".412",
+      "slg": ".563",
+      "hr": 21,
+      "url": "https://www.baseball-reference.com/players/s/sotoju01.shtml"
+    },
+    {
       "name": "Ben Rice",
       "team": "New York Yankees",
       "pa": 390,
@@ -34,17 +45,6 @@
       "slg": ".599",
       "hr": 29,
       "url": "https://www.baseball-reference.com/players/r/ricebe01.shtml"
-    },
-    {
-      "name": "Juan Soto",
-      "team": "New York Mets",
-      "pa": 334,
-      "ops": ".967",
-      "avg": ".290",
-      "obp": ".405",
-      "slg": ".562",
-      "hr": 21,
-      "url": "https://www.baseball-reference.com/players/s/sotoju01.shtml"
     },
     {
       "name": "Shohei Ohtani",
@@ -71,11 +71,11 @@
     {
       "name": "Kyle Schwarber",
       "team": "Philadelphia Phillies",
-      "pa": 414,
-      "ops": ".927",
+      "pa": 418,
+      "ops": ".925",
       "avg": ".254",
-      "obp": ".367",
-      "slg": ".560",
+      "obp": ".366",
+      "slg": ".559",
       "hr": 32,
       "url": "https://www.baseball-reference.com/players/s/schwaky01.shtml"
     },
@@ -201,6 +201,17 @@
       "url": "https://www.baseball-reference.com/players/j/jrlu01.shtml"
     },
     {
+      "name": "Bryce Harper",
+      "team": "Philadelphia Phillies",
+      "pa": 412,
+      "ops": ".866",
+      "avg": ".261",
+      "obp": ".367",
+      "slg": ".499",
+      "hr": 20,
+      "url": "https://www.baseball-reference.com/players/h/harpebr01.shtml"
+    },
+    {
       "name": "Jonathan Aranda",
       "team": "Tampa Bay Rays",
       "pa": 406,
@@ -265,17 +276,6 @@
       "slg": ".538",
       "hr": 27,
       "url": "https://www.baseball-reference.com/players/g/goodmhu01.shtml"
-    },
-    {
-      "name": "Bryce Harper",
-      "team": "Philadelphia Phillies",
-      "pa": 408,
-      "ops": ".862",
-      "avg": ".260",
-      "obp": ".365",
-      "slg": ".497",
-      "hr": 20,
-      "url": "https://www.baseball-reference.com/players/h/harpebr01.shtml"
     },
     {
       "name": "TJ Rumfield",
@@ -377,17 +377,6 @@
       "url": "https://www.baseball-reference.com/players/a/arraelu01.shtml"
     },
     {
-      "name": "Brandon Marsh",
-      "team": "Philadelphia Phillies",
-      "pa": 363,
-      "ops": ".829",
-      "avg": ".301",
-      "obp": ".339",
-      "slg": ".490",
-      "hr": 15,
-      "url": "https://www.baseball-reference.com/players/m/marshbr01.shtml"
-    },
-    {
       "name": "Brice Turang",
       "team": "Milwaukee Brewers",
       "pa": 416,
@@ -452,6 +441,17 @@
       "slg": ".452",
       "hr": 9,
       "url": "https://www.baseball-reference.com/players/j/jungjo01.shtml"
+    },
+    {
+      "name": "Brandon Marsh",
+      "team": "Philadelphia Phillies",
+      "pa": 367,
+      "ops": ".819",
+      "avg": ".297",
+      "obp": ".335",
+      "slg": ".484",
+      "hr": 15,
+      "url": "https://www.baseball-reference.com/players/m/marshbr01.shtml"
     },
     {
       "name": "Michael Harris II",
