@@ -1,49 +1,6 @@
 {
-  "date": "2026-10-01",
-  "no_games": false,
-  "total": 3,
-  "home_runs": [
-    {
-      "batter": "Ozzie Albies",
-      "pitcher": "Zack Wheeler",
-      "hr_count": 1,
-      "distance_ft": 419.0,
-      "launch_speed": 106.0,
-      "launch_angle": 32.0,
-      "inning": 4,
-      "half_inning": "bottom",
-      "game": "Philadelphia Phillies @ Atlanta Braves",
-      "description": "Ozzie Albies homers (1) on a fly ball to right center field. Austin Riley scores.",
-      "savant_url": "https://baseballsavant.mlb.com/sporty-videos?playId=f0c780a7-9bc3-33cc-a259-1b93ee2d0f19",
-      "big_fly": false
-    },
-    {
-      "batter": "Matt Olson",
-      "pitcher": "Jonathan Bowlan",
-      "hr_count": 1,
-      "distance_ft": 416.0,
-      "launch_speed": 107.2,
-      "launch_angle": 26.0,
-      "inning": 7,
-      "half_inning": "bottom",
-      "game": "Philadelphia Phillies @ Atlanta Braves",
-      "description": "Matt Olson homers (1) on a fly ball to center field.",
-      "savant_url": "https://baseballsavant.mlb.com/sporty-videos?playId=4617093b-8054-3d3e-a382-c1ed34f5a4c2",
-      "big_fly": false
-    },
-    {
-      "batter": "Michael Harris II",
-      "pitcher": "Aaron Nola",
-      "hr_count": 1,
-      "distance_ft": 387.0,
-      "launch_speed": 100.5,
-      "launch_angle": 25.0,
-      "inning": 1,
-      "half_inning": "bottom",
-      "game": "Philadelphia Phillies @ Atlanta Braves",
-      "description": "Michael Harris II homers (1) on a fly ball to right center field. Ronald Acu\u00f1a Jr. scores. Matt Olson scores.",
-      "savant_url": "https://baseballsavant.mlb.com/sporty-videos?playId=1f67e8df-3ee8-36dc-a25b-5054ff8bfe45",
-      "big_fly": false
-    }
-  ]
+  "date": "2026-10-02",
+  "no_games": true,
+  "total": 0,
+  "home_runs": []
 }
