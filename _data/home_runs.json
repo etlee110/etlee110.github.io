@@ -1,49 +1,6 @@
 {
-  "date": "2026-10-08",
-  "no_games": false,
-  "total": 3,
-  "home_runs": [
-    {
-      "batter": "Miguel Vargas",
-      "pitcher": "Cade Smith",
-      "hr_count": 1,
-      "distance_ft": 386.0,
-      "launch_speed": 103.3,
-      "launch_angle": 34.0,
-      "inning": 9,
-      "half_inning": "bottom",
-      "game": "Cleveland Guardians @ Chicago White Sox",
-      "description": "Miguel Vargas homers (1) on a fly ball to left field.",
-      "savant_url": "https://baseballsavant.mlb.com/sporty-videos?playId=5da5f187-5ae5-39ea-93a0-7f751f7b00e1",
-      "big_fly": false
-    },
-    {
-      "batter": "Jos\u00e9 Ram\u00edrez",
-      "pitcher": "Jordan Hicks",
-      "hr_count": 1,
-      "distance_ft": 378.0,
-      "launch_speed": 103.1,
-      "launch_angle": 25.0,
-      "inning": 5,
-      "half_inning": "top",
-      "game": "Cleveland Guardians @ Chicago White Sox",
-      "description": "Jos\u00e9 Ram\u00edrez homers (1) on a fly ball to right center field. Steven Kwan scores.",
-      "savant_url": "https://baseballsavant.mlb.com/sporty-videos?playId=3451f164-b01d-3bb3-a4b5-984c177a0385",
-      "big_fly": false
-    },
-    {
-      "batter": "Patrick Bailey",
-      "pitcher": "Erick Fedde",
-      "hr_count": 1,
-      "distance_ft": 376.0,
-      "launch_speed": 110.0,
-      "launch_angle": 22.0,
-      "inning": 5,
-      "half_inning": "top",
-      "game": "Cleveland Guardians @ Chicago White Sox",
-      "description": "Patrick Bailey homers (1) on a line drive to right field.",
-      "savant_url": "https://baseballsavant.mlb.com/sporty-videos?playId=b7177a49-b84a-33fb-89d7-7be1e85d5705",
-      "big_fly": false
-    }
-  ]
+  "date": "2026-10-09",
+  "no_games": true,
+  "total": 0,
+  "home_runs": []
 }
