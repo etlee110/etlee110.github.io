@@ -1,6 +1,21 @@
 {
-  "date": "2026-10-09",
-  "no_games": true,
-  "total": 0,
-  "home_runs": []
+  "date": "2026-10-10",
+  "no_games": false,
+  "total": 1,
+  "home_runs": [
+    {
+      "batter": "Jos\u00e9 Ram\u00edrez",
+      "pitcher": "Sean Burke",
+      "hr_count": 2,
+      "distance_ft": 348.0,
+      "launch_speed": 97.2,
+      "launch_angle": 23.0,
+      "inning": 4,
+      "half_inning": "bottom",
+      "game": "Chicago White Sox @ Cleveland Guardians",
+      "description": "Jos\u00e9 Ram\u00edrez homers (2) on a line drive to right field. Steven Kwan scores.",
+      "savant_url": "https://baseballsavant.mlb.com/sporty-videos?playId=626c085f-bf72-3154-94d5-f3522c2bed12",
+      "big_fly": false
+    }
+  ]
 }
