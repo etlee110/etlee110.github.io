@@ -1,6 +1,49 @@
 {
-  "date": "2026-10-13",
+  "date": "2026-10-14",
   "no_games": false,
-  "total": 0,
-  "home_runs": []
+  "total": 3,
+  "home_runs": [
+    {
+      "batter": "Garrett Mitchell",
+      "pitcher": "Blake Snell",
+      "hr_count": 1,
+      "distance_ft": 428.0,
+      "launch_speed": 111.5,
+      "launch_angle": 23.0,
+      "inning": 7,
+      "half_inning": "top",
+      "game": "Milwaukee Brewers @ Los Angeles Dodgers",
+      "description": "Garrett Mitchell homers (1) on a fly ball to right center field.",
+      "savant_url": "https://baseballsavant.mlb.com/sporty-videos?playId=f9087811-65d0-37c6-9d1a-8ebf6701f232",
+      "big_fly": true
+    },
+    {
+      "batter": "Jake Bauers",
+      "pitcher": "Blake Snell",
+      "hr_count": 1,
+      "distance_ft": 412.0,
+      "launch_speed": 109.4,
+      "launch_angle": 34.0,
+      "inning": 7,
+      "half_inning": "top",
+      "game": "Milwaukee Brewers @ Los Angeles Dodgers",
+      "description": "Jake Bauers homers (1) on a fly ball to right field. Christian Yelich scores.",
+      "savant_url": "https://baseballsavant.mlb.com/sporty-videos?playId=b042b496-183d-3ea0-bf8e-dac4f63c74ce",
+      "big_fly": false
+    },
+    {
+      "batter": "Jackson Chourio",
+      "pitcher": "Blake Snell",
+      "hr_count": 2,
+      "distance_ft": 391.0,
+      "launch_speed": 106.1,
+      "launch_angle": 22.0,
+      "inning": 1,
+      "half_inning": "top",
+      "game": "Milwaukee Brewers @ Los Angeles Dodgers",
+      "description": "Jackson Chourio homers (2) on a fly ball to right center field.",
+      "savant_url": "https://baseballsavant.mlb.com/sporty-videos?playId=2e67e659-b2ca-3f9d-bdad-3ce0ded8961c",
+      "big_fly": false
+    }
+  ]
 }
