@@ -1,63 +1,6 @@
 {
-  "date": "2026-10-15",
+  "date": "2026-10-16",
   "no_games": false,
-  "total": 4,
-  "home_runs": [
-    {
-      "batter": "Shohei Ohtani",
-      "pitcher": "Dustin May",
-      "hr_count": 1,
-      "distance_ft": 428.0,
-      "launch_speed": 113.1,
-      "launch_angle": 34.0,
-      "inning": 2,
-      "half_inning": "bottom",
-      "game": "Milwaukee Brewers @ Los Angeles Dodgers",
-      "description": "Shohei Ohtani homers (1) on a fly ball to right center field. Teoscar Hern\u00e1ndez scores. Andy Pages scores.",
-      "savant_url": "https://baseballsavant.mlb.com/sporty-videos?playId=f6d4bb0a-c4eb-34b9-a9e7-485d911055fe",
-      "big_fly": true
-    },
-    {
-      "batter": "Garrett Mitchell",
-      "pitcher": "Tanner Scott",
-      "hr_count": 2,
-      "distance_ft": 409.0,
-      "launch_speed": 105.2,
-      "launch_angle": 26.0,
-      "inning": 6,
-      "half_inning": "top",
-      "game": "Milwaukee Brewers @ Los Angeles Dodgers",
-      "description": "Garrett Mitchell homers (2) on a fly ball to center field.",
-      "savant_url": "https://baseballsavant.mlb.com/sporty-videos?playId=6a90ddca-5d19-31ba-8aad-70d9960d6dc0",
-      "big_fly": false
-    },
-    {
-      "batter": "David Hamilton",
-      "pitcher": "Edwin D\u00edaz",
-      "hr_count": 1,
-      "distance_ft": 402.0,
-      "launch_speed": 105.0,
-      "launch_angle": 36.0,
-      "inning": 9,
-      "half_inning": "top",
-      "game": "Milwaukee Brewers @ Los Angeles Dodgers",
-      "description": "David Hamilton homers (1) on a fly ball to right center field.",
-      "savant_url": "https://baseballsavant.mlb.com/sporty-videos?playId=a6675d8e-3d85-39f6-9b52-f6174e06f18b",
-      "big_fly": false
-    },
-    {
-      "batter": "Petey Halpin",
-      "pitcher": "Griffin Jax",
-      "hr_count": 1,
-      "distance_ft": 385.0,
-      "launch_speed": 105.0,
-      "launch_angle": 26.0,
-      "inning": 5,
-      "half_inning": "bottom",
-      "game": "Tampa Bay Rays @ Cleveland Guardians",
-      "description": "Petey Halpin homers (1) on a fly ball to right center field. Patrick Bailey scores.",
-      "savant_url": "https://baseballsavant.mlb.com/sporty-videos?playId=54779f7a-9dd9-31c4-8773-12d717549763",
-      "big_fly": false
-    }
-  ]
+  "total": 0,
+  "home_runs": []
 }
