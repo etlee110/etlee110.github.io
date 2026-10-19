@@ -1,35 +1,6 @@
 {
-  "date": "2026-10-17",
+  "date": "2026-10-18",
   "no_games": false,
-  "total": 2,
-  "home_runs": [
-    {
-      "batter": "Travis Bazzana",
-      "pitcher": "Ian Seymour",
-      "hr_count": 1,
-      "distance_ft": 374.0,
-      "launch_speed": 107.8,
-      "launch_angle": 21.0,
-      "inning": 7,
-      "half_inning": "bottom",
-      "game": "Tampa Bay Rays @ Cleveland Guardians",
-      "description": "Travis Bazzana homers (1) on a line drive to right field.",
-      "savant_url": "https://baseballsavant.mlb.com/sporty-videos?playId=e2f6a819-bb56-3e37-9a76-20fafbe731a4",
-      "big_fly": false
-    },
-    {
-      "batter": "Yandy D\u00edaz",
-      "pitcher": "Matt Festa",
-      "hr_count": 1,
-      "distance_ft": 349.0,
-      "launch_speed": 101.0,
-      "launch_angle": 36.0,
-      "inning": 9,
-      "half_inning": "top",
-      "game": "Tampa Bay Rays @ Cleveland Guardians",
-      "description": "Yandy D\u00edaz homers (1) on a fly ball to right field. Richie Palacios scores.",
-      "savant_url": "https://baseballsavant.mlb.com/sporty-videos?playId=466926cf-3582-3653-b812-07e170a747b8",
-      "big_fly": false
-    }
-  ]
+  "total": 0,
+  "home_runs": []
 }
