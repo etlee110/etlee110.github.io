@@ -1,35 +1,6 @@
 {
-  "date": "2026-10-19",
-  "no_games": false,
-  "total": 2,
-  "home_runs": [
-    {
-      "batter": "Yandy D\u00edaz",
-      "pitcher": "Hunter Gaddis",
-      "hr_count": 2,
-      "distance_ft": 416.0,
-      "launch_speed": 111.9,
-      "launch_angle": 22.0,
-      "inning": 8,
-      "half_inning": "bottom",
-      "game": "Cleveland Guardians @ Tampa Bay Rays",
-      "description": "Yandy D\u00edaz homers (2) on a fly ball to left field. Taylor Walls scores.",
-      "savant_url": "https://baseballsavant.mlb.com/sporty-videos?playId=3e47cfc3-6020-3552-a84c-8662e45dba15",
-      "big_fly": false
-    },
-    {
-      "batter": "Junior Caminero",
-      "pitcher": "Cade Smith",
-      "hr_count": 1,
-      "distance_ft": 346.0,
-      "launch_speed": 92.3,
-      "launch_angle": 26.0,
-      "inning": 7,
-      "half_inning": "bottom",
-      "game": "Cleveland Guardians @ Tampa Bay Rays",
-      "description": "Junior Caminero homers (1) on a fly ball to left field. Liam Hicks scores.",
-      "savant_url": "https://baseballsavant.mlb.com/sporty-videos?playId=f5e77c06-3f7d-33b8-b294-6e49e8df1c5e",
-      "big_fly": false
-    }
-  ]
+  "date": "2026-10-20",
+  "no_games": true,
+  "total": 0,
+  "home_runs": []
 }
