@@ -1,6 +1,35 @@
 {
-  "date": "2026-10-23",
+  "date": "2026-10-24",
   "no_games": false,
-  "total": 0,
-  "home_runs": []
+  "total": 2,
+  "home_runs": [
+    {
+      "batter": "Liam Hicks",
+      "pitcher": "Logan Henderson",
+      "hr_count": 1,
+      "distance_ft": 411.0,
+      "launch_speed": 102.4,
+      "launch_angle": 24.0,
+      "inning": 1,
+      "half_inning": "top",
+      "game": "Tampa Bay Rays @ Milwaukee Brewers",
+      "description": "Liam Hicks homers (1) on a fly ball to right center field. Junior Caminero scores.",
+      "savant_url": "https://baseballsavant.mlb.com/sporty-videos?playId=37f6fa71-8bae-3531-bd9f-6899e8a7f932",
+      "big_fly": false
+    },
+    {
+      "batter": "Sal Frelick",
+      "pitcher": "Ian Seymour",
+      "hr_count": 1,
+      "distance_ft": 408.0,
+      "launch_speed": 104.4,
+      "launch_angle": 23.0,
+      "inning": 6,
+      "half_inning": "bottom",
+      "game": "Tampa Bay Rays @ Milwaukee Brewers",
+      "description": "Sal Frelick homers (1) on a fly ball to center field.",
+      "savant_url": "https://baseballsavant.mlb.com/sporty-videos?playId=7aac6cc7-6769-39af-aeef-04174b5b5f58",
+      "big_fly": false
+    }
+  ]
 }
