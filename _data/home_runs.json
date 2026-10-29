@@ -1,35 +1,6 @@
 {
-  "date": "2026-10-27",
+  "date": "2026-10-28",
   "no_games": false,
-  "total": 2,
-  "home_runs": [
-    {
-      "batter": "Cooper Pratt",
-      "pitcher": "Ian Seymour",
-      "hr_count": 1,
-      "distance_ft": 396.0,
-      "launch_speed": 99.1,
-      "launch_angle": 31.0,
-      "inning": 12,
-      "half_inning": "top",
-      "game": "Milwaukee Brewers @ Tampa Bay Rays",
-      "description": "Cooper Pratt homers (1) on a fly ball to left center field.",
-      "savant_url": "https://baseballsavant.mlb.com/sporty-videos?playId=c02989a8-1cc3-37cc-9c82-a0769ff54b64",
-      "big_fly": false
-    },
-    {
-      "batter": "David Hamilton",
-      "pitcher": "Griffin Jax",
-      "hr_count": 2,
-      "distance_ft": 391.0,
-      "launch_speed": 102.0,
-      "launch_angle": 31.0,
-      "inning": 5,
-      "half_inning": "top",
-      "game": "Milwaukee Brewers @ Tampa Bay Rays",
-      "description": "David Hamilton homers (2) on a fly ball to right center field.",
-      "savant_url": "https://baseballsavant.mlb.com/sporty-videos?playId=20d00463-a109-3303-83b0-ddc881370f04",
-      "big_fly": false
-    }
-  ]
+  "total": 0,
+  "home_runs": []
 }
