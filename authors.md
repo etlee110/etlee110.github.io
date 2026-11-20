@@ -7,7 +7,7 @@
 ## Citation
 
 Source:
-[`DESCRIPTION`](https://github.com/etlee110/etlee110.github.io/blob/HEAD/DESCRIPTION)
+[`DESCRIPTION`](https://github.com/etlee110/etlee110.github.io/blob/main/DESCRIPTION)
 
 Lee E (2026). *etlee110: Personal Website of Ethan Lee*. R package
 version 0.1.0, <https://etlee110.github.io/>.
