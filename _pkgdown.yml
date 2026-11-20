@@ -1,0 +1,12 @@
+url: https://etlee110.github.io/
+title: Ethan Lee
+template:
+  bootstrap: 5
+navbar:
+  structure:
+    left: [arxiv]
+    right: [search, github]
+  components:
+    arxiv:
+      text: arXiv papers
+      href: articles/arxiv.html

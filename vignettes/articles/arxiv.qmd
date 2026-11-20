@@ -1,0 +1,132 @@
+---
+title: "arXiv papers"
+description: "Recent arXiv preprints on topics related to this project, refreshed daily."
+format: html
+execute:
+  echo: false
+  warning: false
+  message: false
+---
+
+```{r}
+#| label: settings
+# Edit these to change what the daily build fetches.
+topics <- c("firearm mortality", "waterborne outbreak", "NHANES")
+per_topic <- 15
+```
+
+```{r}
+#| label: fetch
+library(httr2)
+library(xml2)
+
+ns <- c(a = "http://www.w3.org/2005/Atom", arxiv = "http://arxiv.org/schemas/atom")
+squish <- function(x) trimws(gsub("\\s+", " ", x))
+
+fetch_arxiv <- function(term, n) {
+  resp <- request("https://export.arxiv.org/api/query") |>
+    req_url_query(search_query = paste0("all:", strsplit(term, "\\s+")[[1]], collapse = " AND "),
+                  sortBy = "submittedDate", sortOrder = "descending",
+                  max_results = n) |>
+    req_user_agent("etlee110.github.io (https://github.com/etlee110/etlee110.github.io)") |>
+    req_timeout(60) |>
+    req_retry(max_tries = 4,
+              is_transient = \(r) resp_status(r) %in% c(429, 500, 503),
+              backoff = \(i) 15 * i) |>
+    req_perform()
+  entries <- xml_find_all(read_xml(resp_body_string(resp)), "//a:entry", ns)
+  if (!length(entries)) return(NULL)
+  one <- function(e, path) squish(xml_text(xml_find_first(e, path, ns)))
+  data.frame(
+    topic     = term,
+    title     = one(entries, "a:title"),
+    authors   = vapply(entries, \(e) paste(xml_text(xml_find_all(e, "a:author/a:name", ns)),
+                                           collapse = ", "), ""),
+    date      = substr(one(entries, "a:published"), 1, 10),
+    category  = xml_attr(xml_find_first(entries, "arxiv:primary_category", ns), "term"),
+    url       = one(entries, "a:id"),
+    abstract  = one(entries, "a:summary")
+  )
+}
+
+papers <- list()
+for (t in topics) {
+  papers[[t]] <- tryCatch(fetch_arxiv(t, per_topic), error = function(e) NULL)
+  Sys.sleep(3)  # arXiv asks for at most one request every 3 seconds
+}
+papers <- do.call(rbind, papers)
+if (!is.null(papers)) {
+  papers <- papers[!duplicated(papers$url), ]
+  papers <- papers[order(papers$date, decreasing = TRUE), ]
+}
+```
+
+```{r}
+#| label: render
+#| output: asis
+esc <- htmltools::htmlEscape
+cat(sprintf("<p class='text-muted'>Last updated %s UTC &middot; %d papers across %d topics.</p>\n",
+            format(Sys.time(), "%Y-%m-%d %H:%M", tz = "UTC"),
+            if (is.null(papers)) 0L else nrow(papers), length(topics)))
+
+cat('<form id="arxiv-form" class="d-flex flex-wrap gap-2 mb-2" role="search">
+  <input id="arxiv-q" class="form-control flex-grow-1" style="min-width:14rem" type="search"
+         placeholder="Filter the list, or press Enter to search all of arXiv" aria-label="Search">
+  <button class="btn btn-primary" type="submit">Search arXiv</button>
+</form>
+<div id="arxiv-topics" class="mb-3">')
+cat(sprintf('<button type="button" class="btn btn-sm btn-outline-secondary me-1 mb-1" data-topic="%s">%s</button>',
+            esc(topics), esc(topics)), sep = "\n")
+cat('</div>
+<p id="arxiv-status" class="small text-muted"></p>
+<div class="table-responsive"><table class="table" id="arxiv-table">
+<thead><tr><th>Date</th><th>Paper</th><th>Topic</th></tr></thead><tbody>\n')
+
+if (is.null(papers)) {
+  cat('<tr><td colspan="3">Could not reach arXiv during this build; it will retry on the next daily run.</td></tr>\n')
+} else {
+  rows <- sprintf(
+    '<tr data-text="%s"><td class="text-nowrap">%s</td><td><a href="%s"><strong>%s</strong></a><br><small>%s &middot; <code>%s</code></small><details><summary class="small">Abstract</summary><small>%s</small></details></td><td><small>%s</small></td></tr>',
+    esc(tolower(paste(papers$title, papers$authors, papers$abstract, papers$topic))),
+    papers$date, esc(papers$url), esc(papers$title), esc(papers$authors),
+    esc(papers$category), esc(papers$abstract), esc(papers$topic))
+  cat(rows, sep = "\n")
+}
+cat('</tbody></table></div>\n')
+```
+
+```{=html}
+<script>
+(function () {
+  const form = document.getElementById("arxiv-form");
+  const input = document.getElementById("arxiv-q");
+  const tbody = document.querySelector("#arxiv-table tbody");
+  const status = document.getElementById("arxiv-status");
+
+  // typing filters the daily list
+  function filter() {
+    const q = input.value.trim().toLowerCase();
+    let shown = 0;
+    tbody.querySelectorAll("tr[data-text]").forEach(tr => {
+      const hit = !q || q.split(/\s+/).every(w => tr.dataset.text.includes(w));
+      tr.style.display = hit ? "" : "none";
+      shown += hit;
+    });
+    status.textContent = q ? `${shown} matching papers in today's list. Press Enter to search all of arXiv in a new tab.` : "";
+  }
+  input.addEventListener("input", filter);
+
+  document.querySelectorAll("#arxiv-topics [data-topic]").forEach(b =>
+    b.addEventListener("click", () => { input.value = b.dataset.topic; filter(); }));
+
+  // Enter / button: arXiv blocks in-page API calls (no CORS), so open its search page
+  form.addEventListener("submit", ev => {
+    ev.preventDefault();
+    const q = input.value.trim();
+    if (!q) return filter();
+    window.open("https://arxiv.org/search/?searchtype=all&order=-announced_date_first&query=" +
+                encodeURIComponent(q), "_blank", "noopener");
+  });
+})();
+</script>
+```

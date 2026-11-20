@@ -1,0 +1,18 @@
+Package: etlee110
+Title: Personal Website of Ethan Lee
+Version: 0.1.0
+Authors@R:
+    person(given = "Ethan",
+           family = "Lee",
+           role = c("aut", "cre"),
+           email = "ethanlee@g.harvard.edu")
+Description: Source for Ethan Lee's personal website, built with pkgdown and
+    published on GitHub Pages. It includes a daily-updated list of recent arXiv
+    papers on selected topics.
+Depends: R (>= 4.5.0)
+Suggests: knitr, rmarkdown, pkgdown, quarto
+License: MIT + file LICENSE
+Encoding: UTF-8
+URL: https://etlee110.github.io/, https://github.com/etlee110/etlee110.github.io
+BugReports: https://github.com/etlee110/etlee110.github.io/issues
+Config/Needs/website: httr2, xml2, htmltools
