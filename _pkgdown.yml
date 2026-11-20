@@ -10,3 +10,5 @@ navbar:
     arxiv:
       text: arXiv papers
       href: articles/arxiv.html
+home:
+  sidebar: false
