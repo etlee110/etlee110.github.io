@@ -61,7 +61,7 @@
 
 
     <p class="text-muted">
-Last updated 2026-11-25 20:24 UTC · 21 papers across 3 topics.
+Last updated 2026-11-26 20:01 UTC · 21 papers across 3 topics.
 </p>
 <form id="arxiv-form" class="d-flex flex-wrap gap-2 mb-2" role="search">
 <input id="arxiv-q" class="form-control flex-grow-1" style="min-width:14rem" type="search" placeholder="Filter the list, or press Enter to search all of arXiv" aria-label="Search"><button class="btn btn-primary" type="submit">Search arXiv</button>
@@ -93,6 +93,21 @@ Topic
 </th>
 </tr></thead>
 <tbody>
+<tr data-text="fairness-regularized principal component analysis chuang xu, yanrong yang, andrew t. a. wood principal component analysis (pca) optimizes aggregate reconstruction accuracy but may represent heterogeneous groups unevenly. we study fairness-regularized pca, which balances aggregate reconstruction risk against worst-group reconstruction regret, and establish its population and statistical properties. first, we characterize the reconstruction-fairness trade-off and show that, under a nondegeneracy condition, a small fairness penalty reduces worst-group regret to first order while increasing aggregate reconstruction risk only to second order. this reveals a vanishing initial marginal cost of improving fairness. we also identify conditions under which the regularization path remains locally constant. a minimax spectral characterization shows that, under an optimal effective eigengap condition, the convex relaxation is exact and fair pca is equivalent to ordinary pca with endogenously adjusted group weights. second, we develop a statistical theory for estimating fairness-regularized principal subspaces. a uniform eigengap over the set of possibly nonunique dual optimizers implies polyhedral identification and quadratic growth, yielding first-order perturbation bounds and convergence rates that accommodate growing dimensions, ranks, and numbers of groups. third, we establish uniform recovery of the reconstruction-fairness path and theoretical guarantees for data-adaptive penalty selection. simulations and an nhanes accelerometry application demonstrate substantial improvements in worst-group representation quality with minimal loss of aggregate reconstruction accuracy. nhanes">
+<td class="text-nowrap">
+2026-11-25
+</td>
+<td>
+<a href="http://arxiv.org/abs/2611.33840v1" class="external-link"><strong>Fairness-Regularized Principal Component Analysis</strong></a><br><small>Chuang Xu, Yanrong Yang, Andrew T. A. Wood · <code>math.ST</code></small>
+<details><summary class="small">
+Abstract
+</summary><small>Principal component analysis (PCA) optimizes aggregate reconstruction accuracy but may represent heterogeneous groups unevenly. We study fairness-regularized PCA, which balances aggregate reconstruction risk against worst-group reconstruction regret, and establish its population and statistical properties. First, we characterize the reconstruction-fairness trade-off and show that, under a nondegeneracy condition, a small fairness penalty reduces worst-group regret to first order while increasing aggregate reconstruction risk only to second order. This reveals a vanishing initial marginal cost of improving fairness. We also identify conditions under which the regularization path remains locally constant. A minimax spectral characterization shows that, under an optimal effective eigengap condition, the convex relaxation is exact and Fair PCA is equivalent to ordinary PCA with endogenously adjusted group weights. Second, we develop a statistical theory for estimating fairness-regularized principal subspaces. A uniform eigengap over the set of possibly nonunique dual optimizers implies polyhedral identification and quadratic growth, yielding first-order perturbation bounds and convergence rates that accommodate growing dimensions, ranks, and numbers of groups. Third, we establish uniform recovery of the reconstruction-fairness path and theoretical guarantees for data-adaptive penalty selection. Simulations and an NHANES accelerometry application demonstrate substantial improvements in worst-group representation quality with minimal loss of aggregate reconstruction accuracy.</small>
+</details>
+</td>
+<td>
+<small>NHANES</small>
+</td>
+</tr>
 <tr data-text="does lifestyle information improve hypertension prediction? a leakage-controlled evaluation on nhanes uriel benymon does readily available lifestyle information improve machine-learning prediction of hypertension beyond routine demographic and anthropometric data? on nhanes 2017-march 2020, five model families (logistic regression, random forest, gradient boosting, bagged decision trees, and xgboost) were evaluated with fold-local preprocessing and paired bootstrap confidence intervals. adding physical activity, alcohol use, smoking, and sleep information showed no consistent detectable improvement in held-out discrimination: every paired roc-auc confidence interval included zero, including under a stricter measured-blood-pressure phenotype and without synthetic oversampling. mean cross-model shap rank agreement fell from 0.873 to 0.806 over all encoded columns, but this decline was largely attenuated over the 19 baseline columns shared by both arms (0.873 vs. 0.863), and likewise under both robustness checks; attribution-agreement comparisons across feature sets of different sizes therefore require a matched comparison space. in exploratory analysis of untreated adults (measured-blood-pressure outcome), all five models showed small positive differences, two with unadjusted intervals excluding zero, meriting confirmation. these results do not imply that lifestyle factors are clinically unimportant; within this cohort, the evaluated lifestyle block added little incremental discrimination beyond an already-informative baseline. nhanes">
 <td class="text-nowrap">
 2026-11-14
@@ -297,21 +312,6 @@ Abstract
 <details><summary class="small">
 Abstract
 </summary><small>Background: Sex hormone-binding globulin (SHBG) is linked to adiposity, insulin resistance and type 2 diabetes, but nationally representative evidence on the shape of the continuous SHBG-HbA1c association in reproductive-age women remains limited. Methods: We analyzed NHANES August 2021-August 2023 data for nonpregnant women aged 20-44 years (n=843). Survey-weighted linear regression related log-transformed SHBG to continuous HbA1c, with quadratic and spline tests for nonlinearity and tests for age modification. Forty biomarkers in hormone, biochemical, hematologic and inflammation/lipid blocks were analyzed by multiple factor analysis, sparse PLS and LASSO with bootstrap stability selection, with nested cross-validation. Results: After adjustment for age, race/ethnicity, poverty-income ratio and BMI, ln(SHBG) was inversely associated with HbA1c (beta=-0.1454, P=0.00083). Quadratic (P=0.00386) and spline (P=0.00236) tests supported nonlinearity, with a steeper slope at lower SHBG. The ln(SHBG)-by-age interaction was significant (P=0.0169). Adjustment for BMI, waist circumference and HOMA-IR attenuated the coefficient by 43.7%, 48.1% and about 55%. SHBG remained associated with HbA1c after conditioning on leading biomarker axes (beta=-0.1062, P=0.00342) and was selected in 98.8% of 500 LASSO bootstrap resamples. Nested cross-validation gave out-of-fold R^2 of 0.1298, 0.2136 and 0.2392 for clinical, biomarker and combined models. Conclusions: Higher SHBG was associated with lower HbA1c in a nonlinear pattern among reproductive-age women. The association overlapped with adiposity and insulin resistance but persisted after adjustment. The cross-sectional design and limited fasting subsample preclude causal or clinical interpretation.</small>
-</details>
-</td>
-<td>
-<small>NHANES</small>
-</td>
-</tr>
-<tr data-text="learning global sensitivity indices from observational data: a metamodel-based approach giulia vannucci classical variance-based global sensitivity analysis (gsa) assumes that the input--output mechanism can be repeatedly evaluated under a designed sampling scheme, which is infeasible when only a given sample of observations is available. we propose mm--gsa, a metamodel-based approach to gsa from observational data, in which supervised learning approximates the systematic input--output relationship. mm--gsa combines two complementary perspectives on input relevance: a model-agnostic estimator of the first-order sobol' index, quantifying the contribution of an input to the variability of the systematic response, and a new trigger-based structural index, quantifying how predictive performance depends on the availability of a predictor across alternative predictor subsets. we establish consistency for both estimators and a variable-selection property for the structural index under input independence. monte carlo experiments and an nhanes application illustrate their finite-sample behavior and show that the two measures provide complementary information on input relevance. nhanes">
-<td class="text-nowrap">
-2026-09-30
-</td>
-<td>
-<a href="http://arxiv.org/abs/2609.40342v1" class="external-link"><strong>Learning Global Sensitivity Indices from Observational Data: A Metamodel-Based Approach</strong></a><br><small>Giulia Vannucci · <code>stat.ME</code></small>
-<details><summary class="small">
-Abstract
-</summary><small>Classical variance-based Global Sensitivity Analysis (GSA) assumes that the input–output mechanism can be repeatedly evaluated under a designed sampling scheme, which is infeasible when only a given sample of observations is available. We propose MM–GSA, a metamodel-based approach to GSA from observational data, in which supervised learning approximates the systematic input–output relationship. MM–GSA combines two complementary perspectives on input relevance: a model-agnostic estimator of the first-order Sobol’ index, quantifying the contribution of an input to the variability of the systematic response, and a new trigger-based structural index, quantifying how predictive performance depends on the availability of a predictor across alternative predictor subsets. We establish consistency for both estimators and a variable-selection property for the structural index under input independence. Monte Carlo experiments and an NHANES application illustrate their finite-sample behavior and show that the two measures provide complementary information on input relevance.</small>
 </details>
 </td>
 <td>
